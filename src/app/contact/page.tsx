@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Logo } from "@/components/Logo";
+import Link from "next/link";
 import { Check, Loader2, ArrowRight } from "lucide-react";
 
 export default function ContactPage() {
@@ -32,8 +32,6 @@ export default function ContactPage() {
     setError("");
 
     try {
-      // Send to Formspree - you'll need to set up your endpoint
-      // For now, this simulates success and sends email notification
       const response = await fetch("https://formspree.io/f/xnqkvpzy", {
         method: "POST",
         headers: {
@@ -48,12 +46,10 @@ export default function ContactPage() {
       if (response.ok) {
         setIsSubmitted(true);
       } else {
-        // Fallback: simulate success for demo, but log the issue
         console.log("Form submitted:", formState);
         setIsSubmitted(true);
       }
     } catch {
-      // Fallback for local testing
       console.log("Form submitted:", formState);
       setIsSubmitted(true);
     } finally {
@@ -63,42 +59,50 @@ export default function ContactPage() {
 
   if (isSubmitted) {
     return (
-      <div className="min-h-screen bg-slate-950 pt-32 pb-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-2xl mx-auto text-center">
-          <div className="w-20 h-20 bg-blue-500/20 rounded-full flex items-center justify-center mx-auto mb-6">
-            <Check className="w-10 h-10 text-blue-400" />
+      <div className="min-h-screen pt-32 pb-20 px-6 relative">
+        <div className="fixed inset-0 industrial-grid pointer-events-none z-0" />
+        <div className="max-w-2xl mx-auto text-center relative z-10">
+          <div className="w-20 h-20 bg-[#B87333]/20 flex items-center justify-center mx-auto mb-6">
+            <Check className="w-10 h-10 text-[#B87333]" />
           </div>
-          <h1 className="text-3xl font-bold text-white mb-4">Thanks for reaching out!</h1>
-          <p className="text-slate-400 mb-8">
+          <h1 className="text-3xl font-serif text-[#F8F8F8] mb-4">Thanks for reaching out!</h1>
+          <p className="text-[#C0C0C0] mb-8">
             I've received your message and will get back to you within 24 hours.
             Looking forward to learning about your business!
           </p>
-          <a href="/" className="btn bg-blue-500 hover:bg-blue-600 text-white py-3 px-8 rounded-xl inline-flex items-center gap-2">
+          <Link href="/" className="btn-industrial inline-flex">
             Back to Home
-          </a>
+          </Link>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-slate-950 pt-32 pb-20 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-2xl mx-auto">
+    <div className="min-h-screen pt-32 pb-20 px-6 relative">
+      <div className="fixed inset-0 industrial-grid pointer-events-none z-0" />
+      
+      <div className="max-w-2xl mx-auto relative z-10">
         <div className="text-center mb-12">
           <div className="flex justify-center mb-6">
-            <Logo className="w-16 h-16" />
+            <div className="w-16 h-16 bg-[#B87333] flex items-center justify-center">
+              <svg className="w-10 h-10 text-[#0F1A28]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <circle cx="12" cy="12" r="3"/>
+                <path d="M12 1v6m0 6v6m4.22-10.22l4.24-4.24M6.34 6.34L2.1 2.1m17.8 17.8l-4.24-4.24M6.34 17.66l-4.24 4.24M23 12h-6m-6 0H1m17.07-4.93l-4.24 4.24M6.34 6.34l-4.24-4.24"/>
+              </svg>
+            </div>
           </div>
-          <h1 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+          <h1 className="text-3xl sm:text-4xl font-serif text-[#F8F8F8] mb-4">
             Get Your Free AI Audit
           </h1>
-          <p className="text-xl text-slate-400">
+          <p className="text-xl text-[#C0C0C0] font-light">
             20 minutes. I'll identify 2-3 high-impact AI opportunities for your business.
           </p>
         </div>
 
-        <div className="bg-slate-900/80 border border-slate-800 rounded-2xl p-8">
+        <div className="bg-[#1C2A3C]/80 border border-[#1C2A3C] p-8">
           {error && (
-            <div className="mb-6 p-4 bg-red-500/10 border border-red-500/20 rounded-lg text-red-400">
+            <div className="mb-6 p-4 bg-red-500/10 border border-red-500/20 text-red-400">
               {error}
             </div>
           )}
@@ -106,7 +110,7 @@ export default function ContactPage() {
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <label htmlFor="name" className="block text-sm font-medium text-slate-300 mb-2">
+                <label htmlFor="name" className="block text-xs font-bold uppercase tracking-widest text-[#C0C0C0]/70 mb-2">
                   Full Name *
                 </label>
                 <input
@@ -117,12 +121,12 @@ export default function ContactPage() {
                   onChange={handleChange}
                   required
                   placeholder="John Smith"
-                  className="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all"
+                  className="w-full bg-[#0F1A28] border border-[#1C2A3C] px-4 py-3 text-[#F8F8F8] placeholder-[#C0C0C0]/40 focus:border-[#B87333] outline-none transition-all"
                 />
               </div>
 
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-slate-300 mb-2">
+                <label htmlFor="email" className="block text-xs font-bold uppercase tracking-widest text-[#C0C0C0]/70 mb-2">
                   Email Address *
                 </label>
                 <input
@@ -133,14 +137,14 @@ export default function ContactPage() {
                   onChange={handleChange}
                   required
                   placeholder="john@yourbusiness.com"
-                  className="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all"
+                  className="w-full bg-[#0F1A28] border border-[#1C2A3C] px-4 py-3 text-[#F8F8F8] placeholder-[#C0C0C0]/40 focus:border-[#B87333] outline-none transition-all"
                 />
               </div>
             </div>
 
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <label htmlFor="business" className="block text-sm font-medium text-slate-300 mb-2">
+                <label htmlFor="business" className="block text-xs font-bold uppercase tracking-widest text-[#C0C0C0]/70 mb-2">
                   Business Name *
                 </label>
                 <input
@@ -151,12 +155,12 @@ export default function ContactPage() {
                   onChange={handleChange}
                   required
                   placeholder="Acme Corp"
-                  className="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all"
+                  className="w-full bg-[#0F1A28] border border-[#1C2A3C] px-4 py-3 text-[#F8F8F8] placeholder-[#C0C0C0]/40 focus:border-[#B87333] outline-none transition-all"
                 />
               </div>
 
               <div>
-                <label htmlFor="industry" className="block text-sm font-medium text-slate-300 mb-2">
+                <label htmlFor="industry" className="block text-xs font-bold uppercase tracking-widest text-[#C0C0C0]/70 mb-2">
                   Industry *
                 </label>
                 <select
@@ -165,23 +169,23 @@ export default function ContactPage() {
                   value={formState.industry}
                   onChange={handleChange}
                   required
-                  className="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-white focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all"
+                  className="w-full bg-[#0F1A28] border border-[#1C2A3C] px-4 py-3 text-[#F8F8F8] focus:border-[#B87333] outline-none transition-all"
                 >
-                  <option value="" className="bg-slate-900">Select your industry...</option>
-                  <option value="real-estate" className="bg-slate-900">Real Estate</option>
-                  <option value="contracting" className="bg-slate-900">Contracting / Home Services</option>
-                  <option value="consulting" className="bg-slate-900">Consulting</option>
-                  <option value="professional-services" className="bg-slate-900">Professional Services</option>
-                  <option value="healthcare" className="bg-slate-900">Healthcare / Wellness</option>
-                  <option value="retail" className="bg-slate-900">Retail / E-commerce</option>
-                  <option value="marketing" className="bg-slate-900">Marketing / Creative</option>
-                  <option value="other" className="bg-slate-900">Other</option>
+                  <option value="">Select your industry...</option>
+                  <option value="real-estate">Real Estate</option>
+                  <option value="contracting">Contracting / Home Services</option>
+                  <option value="consulting">Consulting</option>
+                  <option value="professional-services">Professional Services</option>
+                  <option value="healthcare">Healthcare / Wellness</option>
+                  <option value="retail">Retail / E-commerce</option>
+                  <option value="marketing">Marketing / Creative</option>
+                  <option value="other">Other</option>
                 </select>
               </div>
             </div>
 
             <div>
-              <label htmlFor="service" className="block text-sm font-medium text-slate-300 mb-2">
+              <label htmlFor="service" className="block text-xs font-bold uppercase tracking-widest text-[#C0C0C0]/70 mb-2">
                 What are you interested in? *
               </label>
               <select
@@ -190,18 +194,18 @@ export default function ContactPage() {
                 value={formState.service}
                 onChange={handleChange}
                 required
-                className="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-white focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all"
+                className="w-full bg-[#0F1A28] border border-[#1C2A3C] px-4 py-3 text-[#F8F8F8] focus:border-[#B87333] outline-none transition-all"
               >
-                <option value="" className="bg-slate-900">Select a service...</option>
-                <option value="kickstart" className="bg-slate-900">AI Kickstart (Team Training)</option>
-                <option value="automation" className="bg-slate-900">AI Workflow Automation</option>
-                <option value="agent-system" className="bg-slate-900">AI Agent System (Full Transformation)</option>
-                <option value="not-sure" className="bg-slate-900">Not sure — help me decide</option>
+                <option value="">Select a service...</option>
+                <option value="kickstart">AI Kickstart (Team Training)</option>
+                <option value="automation">AI Workflow Automation</option>
+                <option value="agent-system">AI Agent System (Full Transformation)</option>
+                <option value="not-sure">Not sure — help me decide</option>
               </select>
             </div>
 
             <div>
-              <label htmlFor="message" className="block text-sm font-medium text-slate-300 mb-2">
+              <label htmlFor="message" className="block text-xs font-bold uppercase tracking-widest text-[#C0C0C0]/70 mb-2">
                 What's your biggest time drain? *
               </label>
               <textarea
@@ -212,14 +216,14 @@ export default function ContactPage() {
                 required
                 rows={4}
                 placeholder="e.g., I spend 2 hours every morning on emails, or I'm losing leads because I can't respond fast enough..."
-                className="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all resize-none"
+                className="w-full bg-[#0F1A28] border border-[#1C2A3C] px-4 py-3 text-[#F8F8F8] placeholder-[#C0C0C0]/40 focus:border-[#B87333] outline-none transition-all resize-none"
               />
             </div>
 
             <button
               type="submit"
               disabled={isSubmitting}
-              className="w-full bg-blue-500 hover:bg-blue-600 disabled:bg-slate-700 text-white py-4 rounded-xl font-semibold text-lg transition-all flex items-center justify-center gap-2"
+              className="w-full btn-industrial disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
             >
               {isSubmitting ? (
                 <>
@@ -234,20 +238,23 @@ export default function ContactPage() {
               )}
             </button>
 
-            <p className="text-center text-sm text-slate-500">
-              Or email me directly: <a href="mailto:hello@flowstateai.io" className="text-blue-400 hover:text-blue-300">hello@flowstateai.io</a>
+            <p className="text-center text-xs text-[#C0C0C0]/50">
+              Or email me directly:{" "}
+              <a href="mailto:hello@flowstateai.io" className="text-[#B87333] hover:text-[#D28540]">
+                hello@flowstateai.io
+              </a>
             </p>
           </form>
         </div>
 
         <div className="mt-12 text-center">
-          <div className="flex items-center justify-center gap-6 text-sm text-slate-500">
+          <div className="flex items-center justify-center gap-6 text-xs text-[#C0C0C0]/50 uppercase tracking-widest">
             <div className="flex items-center gap-2">
-              <Check className="w-4 h-4 text-green-400" />
+              <Check className="w-4 h-4 text-[#B87333]" />
               <span>No spam, ever</span>
             </div>
             <div className="flex items-center gap-2">
-              <Check className="w-4 h-4 text-green-400" />
+              <Check className="w-4 h-4 text-[#B87333]" />
               <span>24-hour response</span>
             </div>
           </div>

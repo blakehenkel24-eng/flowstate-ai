@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { Logo } from "@/components/Logo";
 import Link from "next/link";
@@ -9,13 +9,20 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
+  weight: ["400", "500", "600", "700"],
+  style: ["normal", "italic"],
+});
+
 export const metadata: Metadata = {
-  title: "Flowstate AI | AI Automation for Small Business",
-  description: "Custom AI automations and intelligent tools that save you 10+ hours every week. No code. No complexity. Just results.",
-  keywords: ["AI automation", "small business", "Chicago", "workflow automation", "AI tools", "business efficiency"],
+  title: "Flowstate AI | Heritage Industrial AI Automation",
+  description: "Engineering custom AI automation for high-stakes workflows. Save 10+ hours per week with precision-built systems.",
+  keywords: ["AI automation", "small business", "Chicago", "workflow automation", "AI tools", "industrial"],
   openGraph: {
-    title: "Flowstate AI | AI Automation for Small Business",
-    description: "Custom AI automations and intelligent tools that save you 10+ hours every week.",
+    title: "Flowstate AI | Heritage Industrial AI Automation",
+    description: "Engineering custom AI automation for high-stakes workflows.",
     type: "website",
   },
 };
@@ -26,11 +33,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} dark`}>
+    <html lang="en" className={`${inter.variable} ${playfair.variable} dark`}>
       <head>
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
       </head>
-      <body className="antialiased bg-slate-950 text-white">
+      <body className="antialiased">
         <Navigation />
         <main>{children}</main>
         <Footer />
@@ -41,35 +48,38 @@ export default function RootLayout({
 
 function Navigation() {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-            <Logo className="w-8 h-8" />
-            <span className="text-xl font-bold text-white">
-              Flowstate<span className="text-blue-400">AI</span>
-            </span>
-          </Link>
-          
-          <div className="hidden md:flex items-center gap-8">
-            <Link href="/" className="text-slate-400 hover:text-white font-medium transition-colors">
-              Services
-            </Link>
-            <Link href="/blog" className="text-slate-400 hover:text-white font-medium transition-colors">
-              Blog
-            </Link>
-            <Link href="/contact" className="btn bg-blue-500 hover:bg-blue-600 text-white text-sm py-2 px-4 rounded-lg">
-              Free AI Audit
-            </Link>
-          </div>
-
-          {/* Mobile menu button */}
-          <button className="md:hidden p-2 text-slate-400" aria-label="Menu">
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+    <nav className="sticky top-0 z-50 border-b border-[#1C2A3C] bg-[#0F1A28]/90 backdrop-blur-md">
+      <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+        <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
+          <div className="w-8 h-8 bg-[#B87333] flex items-center justify-center rounded-sm">
+            <svg className="w-5 h-5 text-[#0F1A28]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <circle cx="12" cy="12" r="3"/>
+              <path d="M12 1v6m0 6v6m4.22-10.22l4.24-4.24M6.34 6.34L2.1 2.1m17.8 17.8l-4.24-4.24M6.34 17.66l-4.24 4.24M23 12h-6m-6 0H1m17.07-4.93l-4.24 4.24M6.34 6.34l-4.24-4.24"/>
             </svg>
-          </button>
+          </div>
+          <span className="text-[#F8F8F8] font-serif italic text-2xl tracking-tight">
+            Flowstate AI
+          </span>
+        </Link>
+        
+        <div className="hidden md:flex items-center gap-10 text-[#C0C0C0]/70 text-xs font-bold uppercase tracking-[0.2em]">
+          <Link href="#services" className="hover:text-[#B87333] transition-colors">
+            Services
+          </Link>
+          <Link href="#process" className="hover:text-[#B87333] transition-colors">
+            Process
+          </Link>
+          <Link href="#case-studies" className="hover:text-[#B87333] transition-colors">
+            Case Studies
+          </Link>
         </div>
+
+        <Link 
+          href="/contact"
+          className="text-xs font-bold uppercase tracking-widest border border-[#B87333]/40 px-6 py-2.5 hover:bg-[#B87333] hover:text-[#0F1A28] transition-all text-[#B87333]"
+        >
+          Book a Call
+        </Link>
       </div>
     </nav>
   );
@@ -77,60 +87,33 @@ function Navigation() {
 
 function Footer() {
   return (
-    <footer className="bg-slate-950 border-t border-slate-800 text-slate-400 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-4 gap-8 mb-8">
-          <div className="md:col-span-2">
-            <div className="flex items-center gap-2 mb-4">
-              <Logo className="w-8 h-8" />
-              <span className="text-xl font-bold text-white">
-                Flowstate<span className="text-blue-400">AI</span>
-              </span>
+    <footer className="bg-[#0F1A28] border-t border-[#1C2A3C] py-16 px-6">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-12">
+        <div className="flex flex-col gap-6">
+          <div className="flex items-center gap-3">
+            <div className="w-7 h-7 bg-[#B87333] flex items-center justify-center rounded-sm">
+              <svg className="w-4 h-4 text-[#0F1A28]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <circle cx="12" cy="12" r="3"/>
+                <path d="M12 1v6m0 6v6m4.22-10.22l4.24-4.24M6.34 6.34L2.1 2.1m17.8 17.8l-4.24-4.24M6.34 17.66l-4.24 4.24M23 12h-6m-6 0H1m17.07-4.93l-4.24 4.24M6.34 6.34l-4.24-4.24"/>
+              </svg>
             </div>
-            <p className="text-slate-500 max-w-sm mb-4">
-              Custom AI automations and intelligent tools for Chicago small businesses. 
-              Save time, reduce stress, and grow your business.
-            </p>
-            <div className="flex gap-4">
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-white transition-colors">
-                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                </svg>
-              </a>
-              <a href="mailto:hello@flowstateai.io" className="text-slate-500 hover:text-white transition-colors">
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
-              </a>
-            </div>
+            <span className="text-[#F8F8F8] font-serif italic text-xl">Flowstate AI</span>
           </div>
-          
-          <div>
-            <h4 className="text-white font-semibold mb-4">Services</h4>
-            <ul className="space-y-2">
-              <li><Link href="/#services" className="hover:text-white transition-colors">AI Kickstart</Link></li>
-              <li><Link href="/#services" className="hover:text-white transition-colors">AI Workflow Automation</Link></li>
-              <li><Link href="/#services" className="hover:text-white transition-colors">AI Agent System</Link></li>
-            </ul>
-          </div>
-          
-          <div>
-            <h4 className="text-white font-semibold mb-4">Company</h4>
-            <ul className="space-y-2">
-              <li><Link href="/blog" className="hover:text-white transition-colors">Blog</Link></li>
-              <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
-              <li><Link href="/contact" className="hover:text-white transition-colors">Free AI Audit</Link></li>
-            </ul>
-          </div>
+          <p className="text-[#C0C0C0]/40 text-xs font-light max-w-xs">
+            Custom AI engineering for the modern industrial Chicago landscape.
+          </p>
         </div>
         
-        <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-slate-600">
-            © {new Date().getFullYear()} Flowstate AI. Chicago, IL.
-          </p>
-          <p className="text-sm text-slate-600">
-            Built with AI for Chicago small businesses.
-          </p>
+        <div className="flex flex-wrap gap-10 text-[#C0C0C0]/60 text-[10px] font-bold uppercase tracking-[0.3em]">
+          <Link href="#services" className="hover:text-[#B87333] transition-colors">Services</Link>
+          <Link href="#process" className="hover:text-[#B87333] transition-colors">Process</Link>
+          <Link href="#case-studies" className="hover:text-[#B87333] transition-colors">Case Studies</Link>
+          <Link href="#" className="hover:text-[#B87333] transition-colors">Privacy</Link>
+          <Link href="/contact" className="hover:text-[#B87333] transition-colors">Contact</Link>
+        </div>
+        
+        <div className="text-[#C0C0C0]/20 text-[9px] uppercase tracking-[0.4em] font-black">
+          © 2024 Flowstate AI. CHICAGO, IL.
         </div>
       </div>
     </footer>
