@@ -1,0 +1,165 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/7c92e96509cd355e.js"],""]
+3:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+4:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+f:I[68027,[],"default"]
+:HL["/_next/static/chunks/fe2dc612f2fb9fe7.css","style"]
+:HL["/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"oMsnGOnDifwy3y7NpR8YI","c":["","blog","why-small-business-cant-ignore-ai"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","why-small-business-cant-ignore-ai","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/fe2dc612f2fb9fe7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/7c92e96509cd355e.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"inter_5901b7c6-module__ec5Qua__variable dark","children":[["$","head",null,{"children":["$","link",null,{"rel":"icon","type":"image/svg+xml","href":"/favicon.svg"}]}],["$","body",null,{"className":"antialiased bg-slate-950 text-white","children":[["$","nav",null,{"className":"fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800","children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8","children":["$","div",null,{"className":"flex justify-between items-center h-16","children":[["$","$L2",null,{"href":"/","className":"flex items-center gap-2 hover:opacity-80 transition-opacity","children":[["$","svg",null,{"viewBox":"0 0 40 40","fill":"none","xmlns":"http://www.w3.org/2000/svg","className":"w-8 h-8","children":[["$","defs",null,{"children":[["$","linearGradient",null,{"id":"logoGrad","x1":"0%","y1":"0%","x2":"100%","y2":"100%","children":[["$","stop",null,{"offset":"0%","stopColor":"#3b82f6"}],["$","stop",null,{"offset":"100%","stopColor":"#6366f1"}]]}],["$","mask",null,{"id":"lineGap","children":[["$","rect",null,{"width":"40","height":"40","fill":"white"}],["$","rect",null,{"x":"12","y":"0","width":"4","height":"40","fill":"black"}],["$","rect",null,{"x":"28","y":"0","width":"2","height":"40","fill":"black"}]]}]]}],["$","circle",null,{"cx":"20","cy":"20","r":"18","stroke":"url(#logoGrad)","strokeWidth":"3","fill":"none","mask":"url(#lineGap)"}],["$","path",null,{"d":"M8 20C8 20 13 12 20 12C27 12 32 20 32 20","stroke":"url(#logoGrad)","strokeWidth":"2.5","strokeLinecap":"round","fill":"none","mask":"url(#lineGap)"}],["$","path",null,{"d":"M10 26C10 26 14 20 20 20C26 20 30 26 30 26","stroke":"url(#logoGrad)","strokeWidth":"2","strokeLinecap":"round","fill":"none","opacity":"0.7","mask":"url(#lineGap)"}],["$","circle",null,{"cx":"20","cy":"20","r":"2.5","fill":"url(#logoGrad)"}]]}],["$","span",null,{"className":"text-xl font-bold text-white","children":["Flowstate",["$","span",null,{"className":"text-blue-400","children":"AI"}]]}]]}],["$","div",null,{"className":"hidden md:flex items-center gap-8","children":[["$","$L2",null,{"href":"/","className":"text-slate-400 hover:text-white font-medium transition-colors","children":"Services"}],["$","$L2",null,{"href":"/blog","className":"text-slate-400 hover:text-white font-medium transition-colors","children":"Blog"}],["$","$L2",null,{"href":"/contact","className":"btn bg-blue-500 hover:bg-blue-600 text-white text-sm py-2 px-4 rounded-lg","children":"Free AI Audit"}]]}],["$","button",null,{"className":"md:hidden p-2 text-slate-400","aria-label":"Menu","children":["$","svg",null,{"className":"w-6 h-6","fill":"none","stroke":"currentColor","viewBox":"0 0 24 24","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":2,"d":"M4 6h16M4 12h16M4 18h16"}]}]}]]}]}]}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"min-h-screen pt-32 pb-20 px-4 sm:px-6 lg:px-8","children":["$","div",null,{"className":"max-w-xl mx-auto text-center","children":[["$","div",null,{"className":"flex justify-center mb-8","children":["$","svg",null,{"viewBox":"0 0 40 40","fill":"none","xmlns":"http://www.w3.org/2000/svg","className":"w-20 h-20","children":[["$","defs",null,{"children":[["$","linearGradient",null,{"id":"logoGrad","x1":"0%","y1":"0%","x2":"100%","y2":"100%","children":[["$","stop",null,{"offset":"0%","stopColor":"#3b82f6"}],["$","stop",null,{"offset":"100%","stopColor":"#6366f1"}]]}],["$","mask",null,{"id":"lineGap","children":[["$","rect",null,{"width":"40","height":"40","fill":"white"}],["$","rect",null,{"x":"12","y":"0","width":"4","height":"40","fill":"black"}],["$","rect",null,{"x":"28","y":"0","width":"2","height":"40","fill":"black"}]]}]]}],["$","circle",null,{"cx":"20","cy":"20","r":"18","stroke":"url(#logoGrad)","strokeWidth":"3","fill":"none","mask":"url(#lineGap)"}],["$","path",null,{"d":"M8 20C8 20 13 12 20 12C27 12 32 20 32 20","stroke":"url(#logoGrad)","strokeWidth":"2.5","strokeLinecap":"round","fill":"none","mask":"url(#lineGap)"}],["$","path",null,{"d":"M10 26C10 26 14 20 20 20C26 20 30 26 30 26","stroke":"url(#logoGrad)","strokeWidth":"2","strokeLinecap":"round","fill":"none","opacity":"0.7","mask":"url(#lineGap)"}],"$L5"]}]}],"$L6","$L7","$L8","$L9"]}]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],"$La"]}]]}]]}],{"children":["$Lb",{"children":["$Lc",{"children":["$Ld",{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$Le",false]],"m":"$undefined","G":["$f",[]],"S":true}
+13:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+16:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+18:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+5:["$","circle",null,{"cx":"20","cy":"20","r":"2.5","fill":"url(#logoGrad)"}]
+6:["$","h1",null,{"className":"text-6xl font-bold text-gray-900 mb-4","children":"404"}]
+7:["$","h2",null,{"className":"text-2xl font-semibold text-gray-700 mb-4","children":"Page Not Found"}]
+8:["$","p",null,{"className":"text-gray-600 mb-8","children":"Sorry, we couldn't find the page you're looking for. It might have been moved or doesn't exist."}]
+9:["$","div",null,{"className":"flex flex-col sm:flex-row gap-4 justify-center","children":[["$","$L2",null,{"href":"/","className":"btn btn-primary","children":"Back to Home"}],["$","$L2",null,{"href":"/blog","className":"btn btn-secondary","children":"Read the Blog"}]]}]
+a:["$","footer",null,{"className":"bg-slate-950 border-t border-slate-800 text-slate-400 py-12 px-4 sm:px-6 lg:px-8","children":["$","div",null,{"className":"max-w-7xl mx-auto","children":[["$","div",null,{"className":"grid md:grid-cols-4 gap-8 mb-8","children":[["$","div",null,{"className":"md:col-span-2","children":[["$","div",null,{"className":"flex items-center gap-2 mb-4","children":[["$","svg",null,{"viewBox":"0 0 40 40","fill":"none","xmlns":"http://www.w3.org/2000/svg","className":"w-8 h-8","children":[["$","defs",null,{"children":[["$","linearGradient",null,{"id":"logoGrad","x1":"0%","y1":"0%","x2":"100%","y2":"100%","children":[["$","stop",null,{"offset":"0%","stopColor":"#3b82f6"}],["$","stop",null,{"offset":"100%","stopColor":"#6366f1"}]]}],["$","mask",null,{"id":"lineGap","children":[["$","rect",null,{"width":"40","height":"40","fill":"white"}],["$","rect",null,{"x":"12","y":"0","width":"4","height":"40","fill":"black"}],["$","rect",null,{"x":"28","y":"0","width":"2","height":"40","fill":"black"}]]}]]}],["$","circle",null,{"cx":"20","cy":"20","r":"18","stroke":"url(#logoGrad)","strokeWidth":"3","fill":"none","mask":"url(#lineGap)"}],["$","path",null,{"d":"M8 20C8 20 13 12 20 12C27 12 32 20 32 20","stroke":"url(#logoGrad)","strokeWidth":"2.5","strokeLinecap":"round","fill":"none","mask":"url(#lineGap)"}],["$","path",null,{"d":"M10 26C10 26 14 20 20 20C26 20 30 26 30 26","stroke":"url(#logoGrad)","strokeWidth":"2","strokeLinecap":"round","fill":"none","opacity":"0.7","mask":"url(#lineGap)"}],["$","circle",null,{"cx":"20","cy":"20","r":"2.5","fill":"url(#logoGrad)"}]]}],["$","span",null,{"className":"text-xl font-bold text-white","children":["Flowstate",["$","span",null,{"className":"text-blue-400","children":"AI"}]]}]]}],["$","p",null,{"className":"text-slate-500 max-w-sm mb-4","children":"Custom AI automations and intelligent tools for Chicago small businesses. Save time, reduce stress, and grow your business."}],["$","div",null,{"className":"flex gap-4","children":[["$","a",null,{"href":"https://linkedin.com","target":"_blank","rel":"noopener noreferrer","className":"text-slate-500 hover:text-white transition-colors","children":["$","svg",null,{"className":"w-6 h-6","fill":"currentColor","viewBox":"0 0 24 24","children":["$","path",null,{"d":"M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"}]}]}],["$","a",null,{"href":"mailto:hello@flowstateai.io","className":"text-slate-500 hover:text-white transition-colors","children":["$","svg",null,{"className":"w-6 h-6","fill":"none","stroke":"currentColor","viewBox":"0 0 24 24","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":2,"d":"M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"}]}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"text-white font-semibold mb-4","children":"Services"}],["$","ul",null,{"className":"space-y-2","children":[["$","li",null,{"children":["$","$L2",null,{"href":"/#services","className":"hover:text-white transition-colors","children":"AI Kickstart"}]}],["$","li",null,{"children":["$","$L2",null,{"href":"/#services","className":"hover:text-white transition-colors","children":"AI Workflow Automation"}]}],["$","li",null,{"children":["$","$L2",null,{"href":"/#services","className":"hover:text-white transition-colors","children":"AI Agent System"}]}]]}]]}],["$","div",null,{"children":[["$","h4",null,{"className":"text-white font-semibold mb-4","children":"Company"}],["$","ul",null,{"className":"space-y-2","children":[["$","li",null,{"children":["$","$L2",null,{"href":"/blog","className":"hover:text-white transition-colors","children":"Blog"}]}],["$","li",null,{"children":["$","$L2",null,{"href":"/contact","className":"hover:text-white transition-colors","children":"Contact"}]}],["$","li",null,{"children":["$","$L2",null,{"href":"/contact","className":"hover:text-white transition-colors","children":"Free AI Audit"}]}]]}]]}]]}],["$","div",null,{"className":"border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4","children":["$L10","$L11"]}]]}]}]
+b:["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+c:["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+d:["$","$1","c",{"children":["$L12",null,["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}]
+e:["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+10:["$","p",null,{"className":"text-sm text-slate-600","children":["© ",2026," Flowstate AI. Chicago, IL."]}]
+11:["$","p",null,{"className":"text-sm text-slate-600","children":"Built with AI for Chicago small businesses."}]
+1a:T174f,<p>I hear it all the time: <em>"AI seems interesting, but I'm too busy to deal with it right now. Maybe next quarter."</em></p>
+<p>Here's the uncomfortable truth: <strong>The businesses that figure out AI now are building an insurmountable advantage.</strong></p>
+<p>And "next quarter" keeps turning into next year. Meanwhile, your competitors are getting faster, cheaper, and more responsive.</p>
+<h2>The Cost of Waiting</h2>
+<p>Let's look at the math on just one automation: instant lead response.</p>
+<p><strong>Scenario A (No automation):</strong></p>
+<ul>
+<li>Lead comes in at 8 PM</li>
+<li>You respond at 9 AM (13 hours later)</li>
+<li>Lead has already talked to 2 competitors</li>
+<li>Close rate: 15%</li>
+</ul>
+<p><strong>Scenario B (With automation):</strong></p>
+<ul>
+<li>Lead comes in at 8 PM</li>
+<li>Instant auto-reply at 8:00 PM</li>
+<li>Personal follow-up at 9 AM</li>
+<li>Lead feels prioritized, hasn't talked to competitors yet</li>
+<li>Close rate: 35%</li>
+</ul>
+<p><strong>On 20 leads per month at $2,000 average deal:</strong></p>
+<ul>
+<li>Without automation: 3 closes = $6,000</li>
+<li>With automation: 7 closes = $14,000</li>
+</ul>
+<p><strong>That's $8,000 per month in lost revenue from ONE automation.</strong></p>
+<h2>What Your Competitors Are Doing</h2>
+<p>I've worked with businesses across Chicago — here's what the aggressive ones are implementing:</p>
+<p><strong>The Realtor:</strong></p>
+<ul>
+<li>Auto-responds to Zillow inquiries in 2 minutes</li>
+<li>Meeting prepper researches every buyer</li>
+<li>Follow-up sequences nurture leads for 6 months</li>
+<li><strong>Result:</strong> 40% more closings, works same hours</li>
+</ul>
+<p><strong>The Contractor:</strong></p>
+<ul>
+<li>Auto-generates quotes from form submissions</li>
+<li>Review requester brings in 5 new Google reviews/month</li>
+<li>Document processor handles all invoicing</li>
+<li><strong>Result:</strong> Handles 30% more jobs with same crew</li>
+</ul>
+<p><strong>The Consultant:</strong></p>
+<ul>
+<li>Content generator turns voice notes into LinkedIn posts</li>
+<li>Proposal drafts cut sales cycle by 3 days</li>
+<li>Meeting summaries ensure nothing falls through cracks</li>
+<li><strong>Result:</strong> 50% more billable hours</li>
+</ul>
+<p>These aren't tech companies. They're normal small businesses that decided to move fast.</p>
+<h2>The "I'll Do It Later" Trap</h2>
+<p>Here's what "later" looks like:</p>
+<p><strong>Q1 2026:</strong> "I'm too busy, maybe next quarter"<br>
+<strong>Q2 2026:</strong> "Things are crazy with summer rush"<br>
+<strong>Q3 2026:</strong> "Let me get through the holidays"<br>
+<strong>Q4 2026:</strong> "Okay, I'll start in January"<br>
+<strong>Q1 2027:</strong> Competitors are now 12 months ahead</p>
+<p>Meanwhile, every month you wait is:</p>
+<ul>
+<li>Lost leads that went to faster responders</li>
+<li>Hours wasted on tasks that could be automated</li>
+<li>Opportunities to test and refine your systems</li>
+</ul>
+<h2>The Good News</h2>
+<p>Getting started with AI automation is faster and cheaper than you think.</p>
+<p><strong>You don't need to:</strong></p>
+<ul>
+<li>Hire a tech team</li>
+<li>Spend $10,000 on software</li>
+<li>Spend months learning tools</li>
+<li>Overhaul your entire business</li>
+</ul>
+<p><strong>You just need to:</strong></p>
+<ul>
+<li>Identify your biggest time waster</li>
+<li>Automate that ONE thing</li>
+<li>See the results</li>
+<li>Repeat</li>
+</ul>
+<p>Most of my clients see their first automation live in <strong>5-7 days</strong>.</p>
+<h2>The Real Risk</h2>
+<p>People think the risk of AI is:</p>
+<ul>
+<li>"What if it doesn't work?"</li>
+<li>"What if I waste money?"</li>
+<li>"What if I look silly?"</li>
+</ul>
+<p>The real risk is:</p>
+<ul>
+<li><strong>Your competitor automates first</strong></li>
+<li><strong>They respond to leads faster</strong></li>
+<li><strong>They deliver quotes instantly</strong></li>
+<li><strong>They follow up consistently</strong></li>
+<li><strong>They win the customer you wanted</strong></li>
+</ul>
+<p>And by the time you notice, they've built a 12-month head start.</p>
+<h2>The 90-Day Advantage</h2>
+<p>Here's what happens when you start now:</p>
+<p><strong>Month 1:</strong> First automation live, saving 5+ hours/week<br>
+<strong>Month 2:</strong> Second automation live, team trained on AI tools<br>
+<strong>Month 3:</strong> Systems humming, you've reclaimed 15+ hours/week</p>
+<p>Those 15 hours? That's time you can spend:</p>
+<ul>
+<li>On high-value sales conversations</li>
+<li>Improving your product/service</li>
+<li>Actually taking weekends off</li>
+<li>Growing the business strategically</li>
+</ul>
+<h2>Three Ways to Start</h2>
+<p><strong>Option 1: DIY</strong></p>
+<ul>
+<li>Cost: Your time</li>
+<li>Timeline: 3-6 months to get good</li>
+<li>Risk: High (abandoned projects, frustration)</li>
+</ul>
+<p><strong>Option 2: Hire Random Freelancer</strong></p>
+<ul>
+<li>Cost: $500-2,000 per automation</li>
+<li>Timeline: 2-4 weeks</li>
+<li>Risk: Medium (quality varies, no ongoing support)</li>
+</ul>
+<p><strong>Option 3: Work With Me</strong></p>
+<ul>
+<li>Cost: $1,500-3,000 (one-time) + monthly maintenance</li>
+<li>Timeline: 5-7 days</li>
+<li>Risk: Low (built for your business, ongoing support)</li>
+</ul>
+<p><a href="/#services">See my services</a></p>
+<h2>Bottom Line</h2>
+<p>AI isn't the future. It's the present. The businesses treating it as optional are already falling behind.</p>
+<p>The question isn't whether AI will change your industry. It's whether you'll be ahead of the curve or scrambling to catch up.</p>
+<p><strong>Ready to stop waiting?</strong> <a href="/contact">Book a free 20-minute audit</a>. I'll show you exactly where automation can help your business — no commitment, no sales pitch, just actionable insights.</p>
+<p>The best time to start was 6 months ago. The second best time is today.</p>
+<hr>
+<p><em>Questions about AI for your business? <a href="mailto:hello@flowstateai.io">Email me</a> — I respond to every message.</em></p>
+12:["$","div",null,{"className":"min-h-screen pt-32 pb-20 px-4 sm:px-6 lg:px-8","children":["$","div",null,{"className":"max-w-3xl mx-auto","children":[["$","$L2",null,{"href":"/blog","className":"inline-flex items-center gap-2 text-gray-500 hover:text-gray-900 mb-8 transition-colors","children":[["$","svg",null,{"className":"w-4 h-4","fill":"none","stroke":"currentColor","viewBox":"0 0 24 24","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":2,"d":"M10 19l-7-7m0 0l7-7m-7 7h18"}]}],"Back to Blog"]}],["$","header",null,{"className":"mb-12","children":[["$","div",null,{"className":"flex flex-wrap gap-2 mb-6","children":[["$","span","AI Strategy",{"className":"px-3 py-1 text-xs font-medium bg-primary-50 text-primary-700 rounded-full","children":"AI Strategy"}],["$","span","Small Business",{"className":"px-3 py-1 text-xs font-medium bg-primary-50 text-primary-700 rounded-full","children":"Small Business"}],["$","span","Competition",{"className":"px-3 py-1 text-xs font-medium bg-primary-50 text-primary-700 rounded-full","children":"Competition"}]]}],["$","h1",null,{"className":"text-3xl sm:text-4xl font-bold text-gray-900 mb-6","children":"Why Your Small Business Can't Afford to Ignore AI in 2026"}],["$","div",null,{"className":"flex items-center gap-6 text-sm text-gray-500","children":["$","div",null,{"className":"flex items-center gap-2","children":[["$","div",null,{"className":"w-10 h-10 rounded-full bg-primary-100 flex items-center justify-center","children":["$","span",null,{"className":"text-primary-700 font-semibold","children":"BH"}]}],["$","div",null,{"children":[["$","div",null,{"className":"font-medium text-gray-900","children":"Blake Henkel"}],["$","div",null,{"children":"February 5, 2026"}]]}]]}]}]]}],["$","article",null,{"className":"prose prose-lg max-w-none","dangerouslySetInnerHTML":{"__html":"$1a"}}],"$L1b"]}]}]
+1b:["$","div",null,{"className":"mt-16 pt-8 border-t border-gray-200","children":["$","div",null,{"className":"card p-8 text-center","children":[["$","h3",null,{"className":"text-xl font-bold text-gray-900 mb-2","children":"Want to implement this in your business?"}],["$","p",null,{"className":"text-gray-600 mb-6","children":"Book a free 20-minute AI audit. I'll identify the best opportunities for your specific business."}],["$","$L2",null,{"href":"/contact","className":"btn btn-primary","children":"Book Your Free Audit"}]]}]}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1c:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+15:null
+19:[["$","title","0",{"children":"Why Your Small Business Can't Afford to Ignore AI in 2026 | Flowstate AI Blog"}],["$","meta","1",{"name":"description","content":"The businesses winning in 2026 aren't the biggest — they're the most automated. Here's why waiting is the riskiest move you can make."}],["$","meta","2",{"name":"keywords","content":"AI automation,small business,Chicago,workflow automation,AI tools,business efficiency"}],["$","meta","3",{"property":"og:title","content":"Flowstate AI | AI Automation for Small Business"}],["$","meta","4",{"property":"og:description","content":"Custom AI automations and intelligent tools that save you 10+ hours every week."}],["$","meta","5",{"property":"og:type","content":"website"}],["$","meta","6",{"name":"twitter:card","content":"summary"}],["$","meta","7",{"name":"twitter:title","content":"Flowstate AI | AI Automation for Small Business"}],["$","meta","8",{"name":"twitter:description","content":"Custom AI automations and intelligent tools that save you 10+ hours every week."}],["$","link","9",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L1c","10",{}]]

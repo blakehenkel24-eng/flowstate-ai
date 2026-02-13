@@ -1,0 +1,132 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/7c92e96509cd355e.js"],""]
+6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T18cc,<p>"How much does AI automation cost?"</p>
+<p>I get this question constantly. And most people are surprised by my answer:</p>
+<p><strong>Less than you're already spending on the manual work.</strong></p>
+<p>Let me show you the real numbers.</p>
+<h2>The Hidden Cost of "Doing It Yourself"</h2>
+<p>Most small business owners don't track their time. So they don't realize how expensive manual work actually is.</p>
+<p>Here's a typical week for a small business owner I worked with:</p>
+<p>| Task | Hours/Week | Annual Hours |
+|------|------------|--------------|
+| Email management | 8 | 416 |
+| Lead follow-up | 4 | 208 |
+| Quote generation | 5 | 260 |
+| Data entry | 3 | 156 |
+| Scheduling | 2 | 104 |
+| <strong>Total</strong> | <strong>22</strong> | <strong>1,144</strong> |</p>
+<p>That's <strong>22 hours per week</strong> on administrative tasks. At a conservative $75/hour value (what they could bill or revenue-generating time), that's:</p>
+<p><strong>$85,800 per year</strong> spent on tasks that don't grow the business.</p>
+<p>And that's not counting:</p>
+<ul>
+<li>Errors from manual data entry</li>
+<li>Lost leads from slow response</li>
+<li>Missed opportunities from being overwhelmed</li>
+</ul>
+<h2>What Automation Actually Costs</h2>
+<p>Let's price out a realistic automation setup:</p>
+<h3>One-Time Setup Costs</h3>
+<p>| Component | Cost |
+|-----------|------|
+| Workflow automation (lead response + follow-up) | $2,000 |
+| Document processor (invoices/quotes) | $1,500 |
+| AI setup and training | $500 |
+| <strong>Total Setup</strong> | <strong>$4,000</strong> |</p>
+<h3>Monthly Costs</h3>
+<p>| Component | Monthly Cost |
+|-----------|--------------|
+| Zapier/Make (automation platform) | $50 |
+| OpenAI API (AI features) | $30 |
+| Monitoring and maintenance | $200 |
+| <strong>Total Monthly</strong> | <strong>$280</strong> |</p>
+<p><strong>Year 1 Total:</strong> $4,000 + ($280 × 12) = <strong>$7,360</strong></p>
+<p><strong>Year 2+ Total:</strong> $280 × 12 = <strong>$3,360</strong></p>
+<h2>The ROI Math</h2>
+<p>Let's compare:</p>
+<p>| Approach | Year 1 Cost | Year 2+ Cost | Time Reclaimed |
+|----------|-------------|--------------|----------------|
+| Do it manually | $85,800 (your time) | $85,800 | 0 hours |
+| Hire assistant | $40,000+ | $40,000+ | 20 hours (but now you manage someone) |
+| <strong>AI Automation</strong> | <strong>$7,360</strong> | <strong>$3,360</strong> | <strong>15-20 hours/week</strong> |</p>
+<p><strong>Year 1 savings:</strong> $78,440<br>
+<strong>Year 2+ savings:</strong> $82,440 per year</p>
+<p>Even if you only value your time at $50/hour (very conservative), automation pays for itself in 2-3 months.</p>
+<h2>The "But I Can't Afford It" Objection</h2>
+<p>I hear this a lot. Here's how I respond:</p>
+<p><strong>"I don't have $4,000 to spend on automation."</strong></p>
+<p>Okay, but you're already spending $85,000/year in time. You just don't see it as a line item.</p>
+<p><strong>"What if it doesn't work?"</strong></p>
+<p>Fair concern. That's why I offer:</p>
+<ul>
+<li>30-day tweaking period included</li>
+<li>Start with ONE automation (~$1,500) to prove ROI</li>
+<li>Month-to-month maintenance (no long-term contracts)</li>
+</ul>
+<p><strong>"What if something breaks?"</strong></p>
+<p>Maintenance is included. Most issues are fixed within hours. Compare that to an employee getting sick or quitting.</p>
+<h2>The Scaling Factor</h2>
+<p>Here's what most people miss: <strong>Automation scales better than people.</strong></p>
+<p>When your business grows:</p>
+<ul>
+<li>A manual process takes MORE time</li>
+<li>An employee needs help or gets overwhelmed</li>
+<li><strong>Automation just keeps working</strong></li>
+</ul>
+<p>I had a realtor client who went from 20 leads/month to 80 leads/month. Their old system would have required hiring an assistant. The automation handled it without breaking a sweat.</p>
+<h2>The Real Comparison</h2>
+<p>Let's be honest about your options:</p>
+<h3>Option 1: Keep Doing It Manually</h3>
+<ul>
+<li>Cost: $85,000+/year in time</li>
+<li>Quality: Inconsistent (depends on your energy/stress)</li>
+<li>Scalability: Terrible</li>
+<li>Flexibility: None</li>
+</ul>
+<h3>Option 2: Hire Someone</h3>
+<ul>
+<li>Cost: $40,000+/year + benefits + taxes + management time</li>
+<li>Quality: Variable (training, turnover)</li>
+<li>Scalability: Limited</li>
+<li>Flexibility: Low (hard to change processes)</li>
+</ul>
+<h3>Option 3: AI Automation</h3>
+<ul>
+<li>Cost: $3,000-7,000/year</li>
+<li>Quality: Consistent 24/7</li>
+<li>Scalability: Excellent</li>
+<li>Flexibility: High (easy to modify)</li>
+</ul>
+<h2>When Automation Doesn't Make Sense</h2>
+<p>I'm not going to sell you something you don't need. Automation is NOT right for:</p>
+<ul>
+<li><strong>Processes you do less than 2 hours/week</strong> — not worth the overhead</li>
+<li><strong>Tasks requiring complex human judgment</strong> — AI isn't there yet</li>
+<li><strong>One-off or irregular tasks</strong> — can't automate what you don't repeat</li>
+<li><strong>Businesses with &#x3C;$100k revenue</strong> — focus on sales first</li>
+</ul>
+<h2>How to Start Small</h2>
+<p>You don't need to automate everything at once. Here's a low-risk approach:</p>
+<p><strong>Month 1:</strong> Build ONE high-impact automation (~$1,500)</p>
+<ul>
+<li>Pick your biggest time waster</li>
+<li>Prove ROI</li>
+<li>Get comfortable with the system</li>
+</ul>
+<p><strong>Month 2-3:</strong> If it's working, add automation #2</p>
+<p><strong>Month 4+:</strong> Keep adding as budget allows</p>
+<p>Most of my clients start with the <a href="/#services">Workflow Automation package</a> at $1,500-3,000, then add more over time.</p>
+<h2>The Bottom Line</h2>
+<p>Stop thinking about automation as an expense. It's an investment that pays for itself in 2-3 months and keeps returning value for years.</p>
+<p>The real question isn't "Can I afford automation?"</p>
+<p>It's: <strong>"Can I afford to keep doing this manually?"</strong></p>
+<hr>
+<p><strong>Want to see the specific ROI for your business?</strong> <a href="/contact">Book a free audit</a> — I'll calculate the real cost of your manual work and show you exactly what automation could save you.</p>
+<p>No sales pitch. Just numbers.</p>
+<hr>
+<p><em>Have questions about automation costs? <a href="mailto:hello@flowstateai.io">Email me</a> — I respond to every message.</em></p>
+0:{"buildId":"oMsnGOnDifwy3y7NpR8YI","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"min-h-screen pt-32 pb-20 px-4 sm:px-6 lg:px-8","children":["$","div",null,{"className":"max-w-3xl mx-auto","children":[["$","$L2",null,{"href":"/blog","className":"inline-flex items-center gap-2 text-gray-500 hover:text-gray-900 mb-8 transition-colors","children":[["$","svg",null,{"className":"w-4 h-4","fill":"none","stroke":"currentColor","viewBox":"0 0 24 24","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":2,"d":"M10 19l-7-7m0 0l7-7m-7 7h18"}]}],"Back to Blog"]}],["$","header",null,{"className":"mb-12","children":[["$","div",null,{"className":"flex flex-wrap gap-2 mb-6","children":[["$","span","ROI",{"className":"px-3 py-1 text-xs font-medium bg-primary-50 text-primary-700 rounded-full","children":"ROI"}],["$","span","Costs",{"className":"px-3 py-1 text-xs font-medium bg-primary-50 text-primary-700 rounded-full","children":"Costs"}],["$","span","Small Business",{"className":"px-3 py-1 text-xs font-medium bg-primary-50 text-primary-700 rounded-full","children":"Small Business"}],["$","span","Budgeting",{"className":"px-3 py-1 text-xs font-medium bg-primary-50 text-primary-700 rounded-full","children":"Budgeting"}]]}],["$","h1",null,{"className":"text-3xl sm:text-4xl font-bold text-gray-900 mb-6","children":"The Real Cost of AI Automation (And Why It's Cheaper Than You Think)"}],["$","div",null,{"className":"flex items-center gap-6 text-sm text-gray-500","children":["$","div",null,{"className":"flex items-center gap-2","children":[["$","div",null,{"className":"w-10 h-10 rounded-full bg-primary-100 flex items-center justify-center","children":["$","span",null,{"className":"text-primary-700 font-semibold","children":"BH"}]}],["$","div",null,{"children":[["$","div",null,{"className":"font-medium text-gray-900","children":"Blake Henkel"}],["$","div",null,{"children":"January 28, 2026"}]]}]]}]}]]}],["$","article",null,{"className":"prose prose-lg max-w-none","dangerouslySetInnerHTML":{"__html":"$3"}}],"$L4"]}]}],null,"$L5"]}],"loading":null,"isPartial":false}
+4:["$","div",null,{"className":"mt-16 pt-8 border-t border-gray-200","children":["$","div",null,{"className":"card p-8 text-center","children":[["$","h3",null,{"className":"text-xl font-bold text-gray-900 mb-2","children":"Want to implement this in your business?"}],["$","p",null,{"className":"text-gray-600 mb-6","children":"Book a free 20-minute AI audit. I'll identify the best opportunities for your specific business."}],["$","$L2",null,{"href":"/contact","className":"btn btn-primary","children":"Book Your Free Audit"}]]}]}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

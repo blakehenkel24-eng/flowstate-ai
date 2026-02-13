@@ -1,0 +1,131 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/7c92e96509cd355e.js"],""]
+6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T16c1,<p>"Which automation should I build first?"</p>
+<p>It's the question I get most often. And my answer always starts with a question back:</p>
+<p><strong>"What's your biggest time suck that directly impacts revenue?"</strong></p>
+<p>Because here's the thing: Not all automations are created equal. Some save time. Some make money. The best ones do both.</p>
+<h2>The Automation Priority Matrix</h2>
+<p>I evaluate every potential automation on two axes:</p>
+<p><strong>Time Saved (Low → High)</strong><br>
+<strong>Revenue Impact (Low → High)</strong></p>
+<p>Here's where common automations fall:</p>
+<h3>High Time, Low Revenue (Avoid These First)</h3>
+<ul>
+<li>Fancy email signatures</li>
+<li>Auto-formatting spreadsheets</li>
+<li>Social media post scheduling (without strategy)</li>
+</ul>
+<p><em>Why avoid:</em> They look cool but don't move the needle.</p>
+<h3>Low Time, High Revenue (Quick Wins)</h3>
+<ul>
+<li>Instant lead response</li>
+<li>Quote/estimate generators</li>
+<li>Review requesters</li>
+</ul>
+<p><em>Why prioritize:</em> Easy to build, immediate ROI.</p>
+<h3>High Time, High Revenue (The Sweet Spot)</h3>
+<ul>
+<li>Document processing pipelines</li>
+<li>Follow-up sequences</li>
+<li>Meeting prepper systems</li>
+</ul>
+<p><em>Why these win:</em> Compounding returns over time.</p>
+<h3>Low Time, Low Revenue (Skip Entirely)</h3>
+<ul>
+<li>Most "AI-powered" gimmicks</li>
+<li>Automation for automation's sake</li>
+</ul>
+<h2>The 3-Question Filter</h2>
+<p>Before I build anything for a client, I ask:</p>
+<h3>1. "How many hours per week does this take you now?"</h3>
+<p>If it's less than 2 hours/week, it's probably not worth automating yet. Focus on bigger time sinks first.</p>
+<h3>2. "What's the cost of NOT doing this?"</h3>
+<p>Some tasks don't take much time but have huge opportunity costs:</p>
+<ul>
+<li>Slow lead response = lost deals</li>
+<li>No follow-up = wasted networking</li>
+<li>Manual quotes = slower close rates</li>
+</ul>
+<h3>3. "Will this still matter in 6 months?"</h3>
+<p>Don't automate processes you're still figuring out. Wait until:</p>
+<ul>
+<li>The workflow is stable</li>
+<li>You know what "good" looks like</li>
+<li>You're doing it consistently</li>
+</ul>
+<h2>Real Client Example: The Contractor</h2>
+<p>A home services contractor came to me wanting to "automate everything."</p>
+<p>Instead, I asked him to track his time for one week. Here's what we found:</p>
+<p>| Task | Hours/Week | Revenue Impact |
+|------|------------|----------------|
+| Invoicing | 4 hrs | Medium (cash flow) |
+| Lead response | 2 hrs | <strong>HIGH</strong> (lost deals) |
+| Quote generation | 6 hrs | <strong>HIGH</strong> (sales speed) |
+| Follow-ups | 3 hrs | <strong>HIGH</strong> (close rate) |
+| Scheduling | 2 hrs | Medium |
+| Social media | 2 hrs | Low |</p>
+<p><strong>What we automated first:</strong></p>
+<ol>
+<li>Lead response (2 hrs saved, high revenue impact)</li>
+<li>Quote generator (6 hrs saved, high revenue impact)</li>
+<li>Follow-up sequences (3 hrs saved, high revenue impact)</li>
+</ol>
+<p><strong>Total:</strong> 11 hours/week saved, significant revenue increase</p>
+<p><strong>What we skipped (for now):</strong> Social media scheduling — low impact, and he wasn't consistent with it anyway.</p>
+<h2>The ROI Calculation</h2>
+<p>Before building any automation, do this math:</p>
+<pre><code>Monthly Time Saved × Your Hourly Value = Monthly Value
+
+Monthly Value - Automation Cost = Net Monthly Benefit
+
+Net Monthly Benefit × 12 = Annual ROI
+</code></pre>
+<p><strong>Example:</strong></p>
+<ul>
+<li>Automation saves 5 hours/week = 20 hours/month</li>
+<li>Your time is worth $100/hour (what you could bill or what revenue you generate)</li>
+<li>Monthly value = $2,000</li>
+<li>Automation cost = $200/month</li>
+<li>Net monthly benefit = $1,800</li>
+<li><strong>Annual ROI = $21,600</strong></li>
+</ul>
+<p>If the annual ROI isn't at least 3x the setup cost, reconsider.</p>
+<h2>Red Flags: Automations That Usually Fail</h2>
+<p>I've seen these patterns lead to abandoned projects:</p>
+<p><strong>❌ Automating a broken process</strong><br>
+Fix the process first, then automate it.</p>
+<p><strong>❌ Trying to automate everything at once</strong><br>
+Pick ONE high-impact automation. Get it working. Then add another.</p>
+<p><strong>❌ No one owns the automation</strong><br>
+Someone needs to monitor it, tweak it, and fix it when it breaks.</p>
+<p><strong>❌ Expecting 100% automation</strong><br>
+Most automations need human oversight. Plan for 80% automated, 20% reviewed.</p>
+<p><strong>❌ Ignoring the maintenance cost</strong><br>
+Budget $150-300/month for monitoring, updates, and fixes.</p>
+<h2>The 30-Day Test</h2>
+<p>Here's my recommendation for every business:</p>
+<p><strong>Week 1:</strong> Track your time. Where are your 10+ hour/week tasks?</p>
+<p><strong>Week 2:</strong> Pick ONE that has both time savings AND revenue impact.</p>
+<p><strong>Week 3:</strong> Build or buy that automation.</p>
+<p><strong>Week 4:</strong> Measure results. Did it work? Should you tweak it or move on?</p>
+<p><strong>Month 2+:</strong> Repeat with the next highest-impact automation.</p>
+<h2>Need Help Prioritizing?</h2>
+<p>Most business owners are too close to their own operations to see the biggest opportunities.</p>
+<p>That's why I offer free 20-minute audits. I'll ask you about:</p>
+<ul>
+<li>Where you spend your time</li>
+<li>Where leads get lost</li>
+<li>Where deals stall</li>
+<li>What keeps you up at night</li>
+</ul>
+<p>Then I'll tell you exactly which automation to build first and why.</p>
+<p><a href="/contact">Book your free audit →</a></p>
+<p>No sales pitch. Just a clear roadmap for your business.</p>
+<hr>
+<p><em>What's your biggest time suck? <a href="mailto:hello@flowstateai.io">Email me</a> — I read every message and might turn it into my next blog post.</em></p>
+0:{"buildId":"oMsnGOnDifwy3y7NpR8YI","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"min-h-screen pt-32 pb-20 px-4 sm:px-6 lg:px-8","children":["$","div",null,{"className":"max-w-3xl mx-auto","children":[["$","$L2",null,{"href":"/blog","className":"inline-flex items-center gap-2 text-gray-500 hover:text-gray-900 mb-8 transition-colors","children":[["$","svg",null,{"className":"w-4 h-4","fill":"none","stroke":"currentColor","viewBox":"0 0 24 24","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":2,"d":"M10 19l-7-7m0 0l7-7m-7 7h18"}]}],"Back to Blog"]}],["$","header",null,{"className":"mb-12","children":[["$","div",null,{"className":"flex flex-wrap gap-2 mb-6","children":[["$","span","Automation",{"className":"px-3 py-1 text-xs font-medium bg-primary-50 text-primary-700 rounded-full","children":"Automation"}],["$","span","Strategy",{"className":"px-3 py-1 text-xs font-medium bg-primary-50 text-primary-700 rounded-full","children":"Strategy"}],["$","span","ROI",{"className":"px-3 py-1 text-xs font-medium bg-primary-50 text-primary-700 rounded-full","children":"ROI"}],["$","span","Small Business",{"className":"px-3 py-1 text-xs font-medium bg-primary-50 text-primary-700 rounded-full","children":"Small Business"}]]}],["$","h1",null,{"className":"text-3xl sm:text-4xl font-bold text-gray-900 mb-6","children":"How to Choose the Right AI Automation for Your Business"}],["$","div",null,{"className":"flex items-center gap-6 text-sm text-gray-500","children":["$","div",null,{"className":"flex items-center gap-2","children":[["$","div",null,{"className":"w-10 h-10 rounded-full bg-primary-100 flex items-center justify-center","children":["$","span",null,{"className":"text-primary-700 font-semibold","children":"BH"}]}],["$","div",null,{"children":[["$","div",null,{"className":"font-medium text-gray-900","children":"Blake Henkel"}],["$","div",null,{"children":"February 1, 2026"}]]}]]}]}]]}],["$","article",null,{"className":"prose prose-lg max-w-none","dangerouslySetInnerHTML":{"__html":"$3"}}],"$L4"]}]}],null,"$L5"]}],"loading":null,"isPartial":false}
+4:["$","div",null,{"className":"mt-16 pt-8 border-t border-gray-200","children":["$","div",null,{"className":"card p-8 text-center","children":[["$","h3",null,{"className":"text-xl font-bold text-gray-900 mb-2","children":"Want to implement this in your business?"}],["$","p",null,{"className":"text-gray-600 mb-6","children":"Book a free 20-minute AI audit. I'll identify the best opportunities for your specific business."}],["$","$L2",null,{"href":"/contact","className":"btn btn-primary","children":"Book Your Free Audit"}]]}]}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

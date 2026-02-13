@@ -1,0 +1,85 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/7c92e96509cd355e.js"],""]
+6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T1384,<p>I talk to small business owners every day, and the story is always the same: <strong>"I know AI could help me, but I don't have time to figure it out."</strong></p>
+<p>Here's the thing — you don't need to become an AI expert. You just need to automate the right things.</p>
+<p>After working with dozens of Chicago businesses, I've identified five automations that deliver the biggest ROI with the least hassle.</p>
+<h2>1. Instant Lead Response</h2>
+<p><strong>The Problem:</strong> A prospect fills out your contact form at 10 PM. By the time you respond at 9 AM, they've already talked to three competitors.</p>
+<p><strong>The Solution:</strong> Auto-reply to every form fill and email within 5 minutes, 24/7.</p>
+<p><strong>What it looks like:</strong></p>
+<ul>
+<li>Someone fills out your "Get a Quote" form</li>
+<li>They immediately receive a personalized email acknowledging their request</li>
+<li>You get a Slack notification (or text) with the lead details</li>
+<li>No lost leads, no 2 AM anxiety checking</li>
+</ul>
+<p><strong>Time saved:</strong> 2-3 hours/week<br>
+<strong>Cost:</strong> $150-250/month in automation fees<br>
+<strong>ROI:</strong> If this saves even ONE lead per month, it pays for itself</p>
+<h2>2. Meeting Prepper</h2>
+<p><strong>The Problem:</strong> You show up to sales calls unprepared. You don't remember how you met this person, what their company does, or what they're looking for.</p>
+<p><strong>The Solution:</strong> Auto-research every lead and send you a briefing email 30 minutes before your call.</p>
+<p><strong>What the briefing includes:</strong></p>
+<ul>
+<li>LinkedIn profile summary</li>
+<li>Company background and recent news</li>
+<li>How they found you (referral, Google, etc.)</li>
+<li>Previous interactions (if any)</li>
+<li>Suggested talking points</li>
+</ul>
+<p><strong>Time saved:</strong> 3-4 hours/week<br>
+<strong>Cost:</strong> Included in most Tier 2 packages<br>
+<strong>ROI:</strong> Better prepared calls = higher close rates</p>
+<h2>3. Follow-Up Sequences</h2>
+<p><strong>The Problem:</strong> You meet someone at a networking event, they seem interested, but you forget to follow up. Or you follow up once, get no response, and give up.</p>
+<p><strong>The Solution:</strong> Smart email sequences that trigger based on behavior and stop automatically when someone responds.</p>
+<p><strong>How it works:</strong></p>
+<ul>
+<li>Day 1: Personal thank-you email</li>
+<li>Day 3: Value-add (relevant article, case study)</li>
+<li>Day 7: Soft check-in</li>
+<li>Day 14: Final "closing the loop" email</li>
+</ul>
+<p>If they reply at any point, the sequence stops. No annoying spam.</p>
+<p><strong>Time saved:</strong> 2-3 hours/week<br>
+<strong>Result:</strong> 40% more deals from existing leads</p>
+<h2>4. Document Processor</h2>
+<p><strong>The Problem:</strong> You spend hours copying data from PDFs, invoices, and emails into spreadsheets or your CRM.</p>
+<p><strong>The Solution:</strong> AI reads the documents and extracts data automatically.</p>
+<p><strong>Real example:</strong> A contractor receives 20-30 invoices per week. Instead of manually entering each one into QuickBooks:</p>
+<ol>
+<li>Forward email to automation</li>
+<li>AI extracts vendor, amount, date, line items</li>
+<li>Data appears in spreadsheet/CRM/accounting software</li>
+<li>You just review and approve</li>
+</ol>
+<p><strong>Time saved:</strong> 3-5 hours/week<br>
+<strong>Error reduction:</strong> 90% fewer data entry mistakes</p>
+<h2>5. Review Requester</h2>
+<p><strong>The Problem:</strong> You know reviews are crucial for local SEO, but you forget to ask. Or you ask once and give up.</p>
+<p><strong>The Solution:</strong> Auto-request reviews after project completion, with one polite follow-up if no response.</p>
+<p><strong>The sequence:</strong></p>
+<ul>
+<li>Day 1 (project complete): Email asking for review with direct link</li>
+<li>Day 7 (if no review): Polite reminder</li>
+<li>Day 14 (if still no review): Stop — don't be annoying</li>
+</ul>
+<p><strong>Results:</strong></p>
+<ul>
+<li>3x more reviews than manual asking</li>
+<li>No awkward "hey, can you leave a review?" conversations</li>
+<li>Better Google ranking = more inbound leads</li>
+</ul>
+<h2>The Bottom Line</h2>
+<p>These five automations will save you <strong>10-15 hours per week</strong>. That's like hiring a part-time assistant for $500-800/month.</p>
+<p>But here's the best part: <strong>You don't have to build these yourself.</strong></p>
+<p>I build these exact automations for Chicago small businesses every week. Most are live in 5-7 days. You just tell me what you need, and I make it work.</p>
+<p><strong>Want to see which automation would help your business most?</strong> <a href="/contact">Book a free 20-minute audit</a> — I'll identify your biggest time suck and show you exactly how to fix it.</p>
+<hr>
+<p><em>Questions about implementing AI in your business? <a href="mailto:hello@flowstateai.io">Email me</a> — I read and respond to every message.</em></p>
+0:{"buildId":"oMsnGOnDifwy3y7NpR8YI","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"min-h-screen pt-32 pb-20 px-4 sm:px-6 lg:px-8","children":["$","div",null,{"className":"max-w-3xl mx-auto","children":[["$","$L2",null,{"href":"/blog","className":"inline-flex items-center gap-2 text-gray-500 hover:text-gray-900 mb-8 transition-colors","children":[["$","svg",null,{"className":"w-4 h-4","fill":"none","stroke":"currentColor","viewBox":"0 0 24 24","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":2,"d":"M10 19l-7-7m0 0l7-7m-7 7h18"}]}],"Back to Blog"]}],["$","header",null,{"className":"mb-12","children":[["$","div",null,{"className":"flex flex-wrap gap-2 mb-6","children":[["$","span","AI",{"className":"px-3 py-1 text-xs font-medium bg-primary-50 text-primary-700 rounded-full","children":"AI"}],["$","span","Automation",{"className":"px-3 py-1 text-xs font-medium bg-primary-50 text-primary-700 rounded-full","children":"Automation"}],["$","span","Small Business",{"className":"px-3 py-1 text-xs font-medium bg-primary-50 text-primary-700 rounded-full","children":"Small Business"}],["$","span","Productivity",{"className":"px-3 py-1 text-xs font-medium bg-primary-50 text-primary-700 rounded-full","children":"Productivity"}]]}],["$","h1",null,{"className":"text-3xl sm:text-4xl font-bold text-gray-900 mb-6","children":"5 AI Automations Every Small Business Owner Needs in 2026"}],["$","div",null,{"className":"flex items-center gap-6 text-sm text-gray-500","children":["$","div",null,{"className":"flex items-center gap-2","children":[["$","div",null,{"className":"w-10 h-10 rounded-full bg-primary-100 flex items-center justify-center","children":["$","span",null,{"className":"text-primary-700 font-semibold","children":"BH"}]}],["$","div",null,{"children":[["$","div",null,{"className":"font-medium text-gray-900","children":"Blake Henkel"}],["$","div",null,{"children":"February 10, 2026"}]]}]]}]}]]}],["$","article",null,{"className":"prose prose-lg max-w-none","dangerouslySetInnerHTML":{"__html":"$3"}}],"$L4"]}]}],null,"$L5"]}],"loading":null,"isPartial":false}
+4:["$","div",null,{"className":"mt-16 pt-8 border-t border-gray-200","children":["$","div",null,{"className":"card p-8 text-center","children":[["$","h3",null,{"className":"text-xl font-bold text-gray-900 mb-2","children":"Want to implement this in your business?"}],["$","p",null,{"className":"text-gray-600 mb-6","children":"Book a free 20-minute AI audit. I'll identify the best opportunities for your specific business."}],["$","$L2",null,{"href":"/contact","className":"btn btn-primary","children":"Book Your Free Audit"}]]}]}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null
