@@ -215,11 +215,11 @@ function Process() {
       title: "Discovery Call",
       description: "Deep dive into your current manual workflows to identify high-impact automation opportunities and bottlenecks.",
       svg: (
-        <svg className="w-40 h-40 stroke-[#C0C0C0]/20 fill-none" strokeWidth="0.75" viewBox="0 0 200 200">
-          <circle className="stroke-[#F8F8F8]/20" cx="100" cy="70" r="30"/>
-          <path className="opacity-40" d="M40 100 L100 70 L160 100 L100 130 Z"/>
-          <path className="opacity-60" d="M40 120 L100 90 L160 120 L100 150 Z"/>
-          <path d="M40 140 L100 110 L160 140 L100 170 Z"/>
+        <svg className="w-40 h-40 stroke-[#B87333]/40 fill-none" strokeWidth="0.75" viewBox="0 0 200 200">
+          <circle className="stroke-[#B87333]/60" cx="100" cy="70" r="30"/>
+          <path className="opacity-60" d="M40 100 L100 70 L160 100 L100 130 Z"/>
+          <path className="opacity-80" d="M40 120 L100 90 L160 120 L100 150 Z"/>
+          <path className="stroke-[#B87333]" d="M40 140 L100 110 L160 140 L100 170 Z"/>
         </svg>
       )
     },
@@ -228,11 +228,11 @@ function Process() {
       title: "Build & Deploy",
       description: "Rapid engineering cycle. We deliver your custom automation ready to use in just 5-7 days, not months.",
       svg: (
-        <svg className="w-40 h-40 stroke-[#C0C0C0]/20 fill-none" strokeWidth="0.75" viewBox="0 0 200 200">
+        <svg className="w-40 h-40 stroke-[#B87333]/40 fill-none" strokeWidth="0.75" viewBox="0 0 200 200">
           <g transform="translate(0, -10)">
-            <path d="M100 40 L130 55 L100 70 L70 55 Z"/>
-            <path d="M70 55 V85 L100 100 V70"/>
-            <path d="M130 55 V85 L100 100"/>
+            <path className="stroke-[#B87333]/60" d="M100 40 L130 55 L100 70 L70 55 Z"/>
+            <path className="stroke-[#B87333]/60" d="M70 55 V85 L100 100 V70"/>
+            <path className="stroke-[#B87333]/60" d="M130 55 V85 L100 100"/>
             <path className="opacity-60" d="M70 80 L100 95 L70 110 L40 95 Z"/>
             <path className="opacity-60" d="M40 95 V125 L70 140 V110"/>
             <path className="opacity-60" d="M100 95 V125 L70 140"/>
@@ -248,12 +248,12 @@ function Process() {
       title: "Optimize & Scale",
       description: "Continuous calibration and scaling support to ensure your system evolves alongside your business growth.",
       svg: (
-        <svg className="w-40 h-40 stroke-[#C0C0C0]/20 fill-none" strokeWidth="0.75" viewBox="0 0 200 200">
-          <path className="opacity-30" d="M50 150 L130 110 V95 L50 135 Z"/>
-          <path className="opacity-50" d="M60 140 L140 100 V85 L60 125 Z"/>
-          <path className="opacity-70" d="M70 130 L150 90 V75 L70 115 Z"/>
-          <path d="M80 120 L160 80 V65 L80 105 Z"/>
-          <path className="stroke-[#F8F8F8]/10" d="M40 160 H140" strokeDasharray="3 3"/>
+        <svg className="w-40 h-40 stroke-[#B87333]/40 fill-none" strokeWidth="0.75" viewBox="0 0 200 200">
+          <path className="opacity-50" d="M50 150 L130 110 V95 L50 135 Z"/>
+          <path className="opacity-70" d="M60 140 L140 100 V85 L60 125 Z"/>
+          <path className="opacity-90" d="M70 130 L150 90 V75 L70 115 Z"/>
+          <path className="stroke-[#B87333]" d="M80 120 L160 80 V65 L80 105 Z"/>
+          <path className="stroke-[#B87333]/30" d="M40 160 H140" strokeDasharray="3 3"/>
         </svg>
       )
     }
