@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Flowstate: Single asymmetric continuous form -->
+  <rect width="100" height="100" rx="28" fill="#B87333"/>
+  <path d="M28 38 C28 32 34 28 42 30 C52 32 54 42 48 48 C42 54 46 64 56 66 C64 68 70 62 70 54" 
+        stroke="#0F1A28" 
+        stroke-width="14" 
+        stroke-linecap="round" 
+        fill="none"/>
+  <circle cx="42" cy="39" r="5" fill="#B87333"/>
+</svg>

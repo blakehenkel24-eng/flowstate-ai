@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Single bold diagonal cut through circle -->
+  <circle cx="50" cy="50" r="40" fill="#B87333"/>
+  <path d="M25 35 L75 35 L75 55 L25 75 Z" fill="#0F1A28"/>
+</svg>

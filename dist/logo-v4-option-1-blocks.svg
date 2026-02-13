@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- HashiCorp style geometric precision: Interlocking F blocks -->
+  <rect width="100" height="100" rx="16" fill="#B87333"/>
+  <rect x="22" y="22" width="25" height="25" rx="4" fill="#0F1A28"/>
+  <rect x="53" y="22" width="25" height="25" rx="4" fill="#0F1A28"/>
+  <rect x="22" y="53" width="25" height="25" rx="4" fill="#0F1A28"/>
+  <rect x="53" y="53" width="25" height="8" rx="2" fill="#0F1A28"/>
+</svg>

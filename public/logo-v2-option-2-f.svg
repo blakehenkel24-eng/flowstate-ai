@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Lettermark F: Bold geometric letterform with forward motion -->
+  <rect width="100" height="100" rx="8" fill="#B87333"/>
+  <path d="M25 22 H65 Q75 22 75 32 Q75 42 65 42 H40" stroke="#0F1A28" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <path d="M25 22 V78" stroke="#0F1A28" stroke-width="10" stroke-linecap="round"/>
+  <path d="M30 50 H55" stroke="#0F1A28" stroke-width="8" stroke-linecap="round"/>
+</svg>

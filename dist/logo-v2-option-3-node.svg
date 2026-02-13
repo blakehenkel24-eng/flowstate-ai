@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Node Network: Simple connected dot system representing AI/flow -->
+  <rect width="100" height="100" rx="8" fill="#B87333"/>
+  <circle cx="30" cy="35" r="8" fill="#0F1A28"/>
+  <circle cx="70" cy="35" r="8" fill="#0F1A28"/>
+  <circle cx="50" cy="70" r="10" fill="#0F1A28"/>
+  <path d="M37 38 L43 64" stroke="#0F1A28" stroke-width="4" stroke-linecap="round"/>
+  <path d="M63 38 L57 64" stroke="#0F1A28" stroke-width="4" stroke-linecap="round"/>
+</svg>

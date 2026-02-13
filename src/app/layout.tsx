@@ -35,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable} dark`}>
       <head>
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
       </head>
       <body className="antialiased">
         <Navigation />
@@ -51,13 +51,7 @@ function Navigation() {
     <nav className="sticky top-0 z-50 border-b border-[#1C2A3C] bg-[#0F1A28]/90 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-          <div className="w-8 h-8 bg-[#B87333] flex items-center justify-center rounded-sm">
-            <svg className="w-5 h-5" viewBox="0 0 100 100" fill="none">
-              <path d="M20 35 Q50 25 80 35" stroke="#0F1A28" stroke-width="8" stroke-linecap="round"/>
-              <path d="M15 52 Q50 42 85 52" stroke="#0F1A28" stroke-width="8" stroke-linecap="round"/>
-              <path d="M20 69 Q50 59 80 69" stroke="#0F1A28" stroke-width="8" stroke-linecap="round"/>
-            </svg>
-          </div>
+          <img src="/logo.png" alt="Flowstate AI" className="w-8 h-8 rounded-sm" />
           <span className="text-[#F8F8F8] font-serif italic text-2xl tracking-tight">
             Flowstate AI
           </span>
@@ -92,13 +86,7 @@ function Footer() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-12">
         <div className="flex flex-col gap-6">
           <div className="flex items-center gap-3">
-            <div className="w-7 h-7 bg-[#B87333] flex items-center justify-center rounded-sm">
-              <svg className="w-4 h-4" viewBox="0 0 100 100" fill="none">
-                <path d="M20 35 Q50 25 80 35" stroke="#0F1A28" stroke-width="8" stroke-linecap="round"/>
-                <path d="M15 52 Q50 42 85 52" stroke="#0F1A28" stroke-width="8" stroke-linecap="round"/>
-                <path d="M20 69 Q50 59 80 69" stroke="#0F1A28" stroke-width="8" stroke-linecap="round"/>
-              </svg>
-            </div>
+            <img src="/logo.png" alt="Flowstate AI" className="w-7 h-7 rounded-sm" />
             <span className="text-[#F8F8F8] font-serif italic text-xl">Flowstate AI</span>
           </div>
           <p className="text-[#C0C0C0]/40 text-xs font-light max-w-xs">

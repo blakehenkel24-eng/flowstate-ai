@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Circle with negative space diagonal channels -->
+  <circle cx="50" cy="50" r="40" fill="#B87333"/>
+  <rect x="18" y="30" width="64" height="10" rx="5" transform="rotate(-35 50 35)" fill="#0F1A28"/>
+  <rect x="18" y="60" width="64" height="10" rx="5" transform="rotate(-35 50 65)" fill="#0F1A28"/>
+</svg>

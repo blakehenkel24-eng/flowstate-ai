@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Smooth asymmetrical blob with cutout -->
+  <rect width="100" height="100" rx="24" fill="#B87333"/>
+  <path d="M28 30 C28 24 36 22 44 24 L60 28 C68 30 70 38 64 44 L48 60 C42 66 34 64 32 56 L28 40 C26 34 28 30 28 30 Z" fill="#0F1A28"/>
+  <circle cx="55" cy="38" r="10" fill="#B87333"/>
+</svg>
