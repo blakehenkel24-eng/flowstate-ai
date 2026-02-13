@@ -107,7 +107,7 @@ function Services() {
     {
       tier: "Workflow Automation",
       price: "$1,000 - $2,000",
-      subprice: "+ $150/mo management",
+      subprice: "+ $300/mo management",
       badge: "Most Popular",
       description: "Custom end-to-end automation integrated with your stack for immediate ROI.",
       features: [
