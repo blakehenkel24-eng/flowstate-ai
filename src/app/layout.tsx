@@ -52,9 +52,10 @@ function Navigation() {
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
           <div className="w-8 h-8 bg-[#B87333] flex items-center justify-center rounded-sm">
-            <svg className="w-5 h-5 text-[#0F1A28]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <circle cx="12" cy="12" r="3"/>
-              <path d="M12 1v6m0 6v6m4.22-10.22l4.24-4.24M6.34 6.34L2.1 2.1m17.8 17.8l-4.24-4.24M6.34 17.66l-4.24 4.24M23 12h-6m-6 0H1m17.07-4.93l-4.24 4.24M6.34 6.34l-4.24-4.24"/>
+            <svg className="w-5 h-5" viewBox="0 0 100 100" fill="none">
+              <path d="M20 35 Q50 25 80 35" stroke="#0F1A28" stroke-width="8" stroke-linecap="round"/>
+              <path d="M15 52 Q50 42 85 52" stroke="#0F1A28" stroke-width="8" stroke-linecap="round"/>
+              <path d="M20 69 Q50 59 80 69" stroke="#0F1A28" stroke-width="8" stroke-linecap="round"/>
             </svg>
           </div>
           <span className="text-[#F8F8F8] font-serif italic text-2xl tracking-tight">
@@ -92,9 +93,10 @@ function Footer() {
         <div className="flex flex-col gap-6">
           <div className="flex items-center gap-3">
             <div className="w-7 h-7 bg-[#B87333] flex items-center justify-center rounded-sm">
-              <svg className="w-4 h-4 text-[#0F1A28]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <circle cx="12" cy="12" r="3"/>
-                <path d="M12 1v6m0 6v6m4.22-10.22l4.24-4.24M6.34 6.34L2.1 2.1m17.8 17.8l-4.24-4.24M6.34 17.66l-4.24 4.24M23 12h-6m-6 0H1m17.07-4.93l-4.24 4.24M6.34 6.34l-4.24-4.24"/>
+              <svg className="w-4 h-4" viewBox="0 0 100 100" fill="none">
+                <path d="M20 35 Q50 25 80 35" stroke="#0F1A28" stroke-width="8" stroke-linecap="round"/>
+                <path d="M15 52 Q50 42 85 52" stroke="#0F1A28" stroke-width="8" stroke-linecap="round"/>
+                <path d="M20 69 Q50 59 80 69" stroke="#0F1A28" stroke-width="8" stroke-linecap="round"/>
               </svg>
             </div>
             <span className="text-[#F8F8F8] font-serif italic text-xl">Flowstate AI</span>
