@@ -1,0 +1,115 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/7c92e96509cd355e.js"],""]
+6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T1789,<p>Everyone's telling you to use ChatGPT. But when you open it up, you stare at the blank box thinking... <em>"Okay, now what?"</em></p>
+<p>After training dozens of small business teams on ChatGPT, I've seen what actually works versus what's just hype. Here's the no-BS guide.</p>
+<h2>What ChatGPT Is Actually Good At</h2>
+<p>ChatGPT excels at three things for small businesses:</p>
+<ol>
+<li><strong>First drafts</strong> — Emails, social posts, proposals (you still need to edit)</li>
+<li><strong>Research assistant</strong> — Summarizing articles, comparing options, explaining concepts</li>
+<li><strong>Brainstorming partner</strong> — Generating ideas when you're stuck</li>
+</ol>
+<p>What it's NOT good at:</p>
+<ul>
+<li>Replacing your judgment (always fact-check)</li>
+<li>Handling sensitive customer communications (without review)</li>
+<li>Legal or financial advice (seriously, don't)</li>
+</ul>
+<h2>The Prompt Framework That Actually Works</h2>
+<p>Most people write prompts like: <em>"Write me an email to a client"</em></p>
+<p>That's why they get generic garbage back.</p>
+<p>Here's the framework I teach every client:</p>
+<pre><code>ROLE: [Who should ChatGPT act as?]
+CONTEXT: [What's the situation?]
+TASK: [What specifically do you want?]
+FORMAT: [How should it look?]
+TONE: [What style?]
+CONSTRAINTS: [What to avoid?]
+</code></pre>
+<p><strong>Example:</strong></p>
+<blockquote>
+<p>ROLE: Experienced real estate agent<br>
+CONTEXT: Following up with a potential buyer who toured a house last week but hasn't made an offer<br>
+TASK: Write a follow-up email that provides value (market update) without being pushy<br>
+FORMAT: Short email, 3-4 sentences max<br>
+TONE: Professional but warm, not salesy<br>
+CONSTRAINTS: Don't mention the specific house, don't ask if they're still interested</p>
+</blockquote>
+<p>See the difference? Specificity gets results.</p>
+<h2>5 ChatGPT Uses That Save Real Time</h2>
+<h3>1. Email Templates (That Don't Sound Like Templates)</h3>
+<p><strong>Instead of:</strong> Writing the same "Thanks for reaching out" email 50 times<br>
+<strong>Do this:</strong> Create 5 variations for different scenarios, save them, customize as needed</p>
+<p><strong>Prompt:</strong></p>
+<blockquote>
+<p>Write 3 variations of a professional email responding to a new inquiry. The business is [YOUR BUSINESS]. Tone should be warm but efficient. Include: acknowledgment of their message, next steps, and timeline.</p>
+</blockquote>
+<h3>2. Social Media Content Batch</h3>
+<p><strong>Instead of:</strong> Staring at a blank screen daily<br>
+<strong>Do this:</strong> Generate a month's worth of content ideas in one session</p>
+<p><strong>Prompt:</strong></p>
+<blockquote>
+<p>I'm a [CONTRACTOR/REALTOR/CONSULTANT]. Give me 20 social media post ideas that: 1) Show expertise without being boring, 2) Include a mix of educational, behind-the-scenes, and client-focused content, 3) Would appeal to [TARGET AUDIENCE]. Format as a table with: Post Type, Hook/First Line, Content Idea.</p>
+</blockquote>
+<h3>3. Proposal/Quote Drafts</h3>
+<p><strong>Instead of:</strong> Starting from scratch every time<br>
+<strong>Do this:</strong> Generate first drafts from bullet points</p>
+<p><strong>Prompt:</strong></p>
+<blockquote>
+<p>Turn these bullet points into a professional proposal: [PASTE BULLETS]. Format with: Introduction, Scope of Work, Timeline, Investment, Next Steps. Tone: Professional but conversational.</p>
+</blockquote>
+<h3>4. Meeting Summaries</h3>
+<p><strong>Instead of:</strong> Scrambling to remember action items  > <strong>Do this:</strong> Paste your messy notes, get a clean summary</p>
+<p><strong>Prompt:</strong></p>
+<blockquote>
+<p>Organize these messy meeting notes into: 1) Key Decisions Made, 2) Action Items (with owners), 3) Open Questions. Notes: [PASTE NOTES]</p>
+</blockquote>
+<h3>5. Competitive Research</h3>
+<p><strong>Instead of:</strong> Spending hours on Google<br>
+<strong>Do this:</strong> Get a structured comparison in seconds</p>
+<p><strong>Prompt:</strong></p>
+<blockquote>
+<p>Compare [COMPETITOR A] vs [COMPETITOR B] for [USE CASE]. Include: pricing, key features, pros/cons, best for [SITUATION]. Format as a comparison table.</p>
+</blockquote>
+<h2>Building Your Prompt Library</h2>
+<p>Here's what I do with every client:</p>
+<ol>
+<li><strong>Start a document</strong> (Google Doc, Notion, whatever)</li>
+<li><strong>Every time you write a good prompt, save it</strong></li>
+<li><strong>Organize by use case</strong> (emails, social, proposals, etc.)</li>
+<li><strong>Refine over time</strong> — you'll see what works</li>
+</ol>
+<p>After a month, you'll have 20-30 prompts that work for YOUR business. That's when ChatGPT becomes actually useful.</p>
+<h2>The $500 Mistake I See Every Week</h2>
+<p>Businesses buy ChatGPT Team licenses for their whole team... but nobody knows how to use them.</p>
+<p><strong>Don't do this:</strong></p>
+<ul>
+<li>Buy licenses without training</li>
+<li>Expect people to "figure it out"</li>
+<li>Let everyone use different prompts (inconsistent output)</li>
+</ul>
+<p><strong>Do this instead:</strong></p>
+<ol>
+<li>Start with 1-2 power users</li>
+<li>Build your prompt library</li>
+<li>Train the team with specific use cases</li>
+<li>Roll out gradually</li>
+</ol>
+<p>This is exactly what my <a href="/#services">AI Kickstart</a> package covers. One session, your whole team trained, custom prompt library built for your business.</p>
+<h2>Bottom Line</h2>
+<p>ChatGPT is a tool, not a magic wand. The businesses getting the most value:</p>
+<ul>
+<li>Have specific use cases (not "we should use AI")</li>
+<li>Build and refine prompt libraries</li>
+<li>Train their team properly</li>
+<li>Review and edit output (don't blindly trust)</li>
+</ul>
+<p><strong>Want help building a ChatGPT system for your business?</strong> <a href="/contact">Book a free audit</a> — I'll show you exactly where AI can save you time.</p>
+<hr>
+<p><em>Want more practical AI tips? <a href="/contact">Subscribe</a> to get new posts delivered to your inbox.</em></p>
+0:{"buildId":"Mdt2a1eTt7VEL9dbxPCK9","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"min-h-screen pt-32 pb-20 px-4 sm:px-6 lg:px-8","children":["$","div",null,{"className":"max-w-3xl mx-auto","children":[["$","$L2",null,{"href":"/blog","className":"inline-flex items-center gap-2 text-gray-500 hover:text-gray-900 mb-8 transition-colors","children":[["$","svg",null,{"className":"w-4 h-4","fill":"none","stroke":"currentColor","viewBox":"0 0 24 24","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":2,"d":"M10 19l-7-7m0 0l7-7m-7 7h18"}]}],"Back to Blog"]}],["$","header",null,{"className":"mb-12","children":[["$","div",null,{"className":"flex flex-wrap gap-2 mb-6","children":[["$","span","ChatGPT",{"className":"px-3 py-1 text-xs font-medium bg-primary-50 text-primary-700 rounded-full","children":"ChatGPT"}],["$","span","AI Tools",{"className":"px-3 py-1 text-xs font-medium bg-primary-50 text-primary-700 rounded-full","children":"AI Tools"}],["$","span","Productivity",{"className":"px-3 py-1 text-xs font-medium bg-primary-50 text-primary-700 rounded-full","children":"Productivity"}],["$","span","Guide",{"className":"px-3 py-1 text-xs font-medium bg-primary-50 text-primary-700 rounded-full","children":"Guide"}]]}],["$","h1",null,{"className":"text-3xl sm:text-4xl font-bold text-gray-900 mb-6","children":"ChatGPT for Small Business: A Practical Guide (No Hype)"}],["$","div",null,{"className":"flex items-center gap-6 text-sm text-gray-500","children":["$","div",null,{"className":"flex items-center gap-2","children":[["$","div",null,{"className":"w-10 h-10 rounded-full bg-primary-100 flex items-center justify-center","children":["$","span",null,{"className":"text-primary-700 font-semibold","children":"BH"}]}],["$","div",null,{"children":[["$","div",null,{"className":"font-medium text-gray-900","children":"Blake Henkel"}],["$","div",null,{"children":"February 8, 2026"}]]}]]}]}]]}],["$","article",null,{"className":"prose prose-lg max-w-none","dangerouslySetInnerHTML":{"__html":"$3"}}],"$L4"]}]}],null,"$L5"]}],"loading":null,"isPartial":false}
+4:["$","div",null,{"className":"mt-16 pt-8 border-t border-gray-200","children":["$","div",null,{"className":"card p-8 text-center","children":[["$","h3",null,{"className":"text-xl font-bold text-gray-900 mb-2","children":"Want to implement this in your business?"}],["$","p",null,{"className":"text-gray-600 mb-6","children":"Book a free 20-minute AI audit. I'll identify the best opportunities for your specific business."}],["$","$L2",null,{"href":"/contact","className":"btn btn-primary","children":"Book Your Free Audit"}]]}]}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null
