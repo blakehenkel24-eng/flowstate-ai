@@ -5,8 +5,11 @@ import {
   Settings,
   FileText,
   Users,
-  TrendingUp,
-  ChevronRight
+  Zap,
+  Target,
+  Mail,
+  Workflow,
+  Star
 } from "lucide-react";
 
 export default function HomePage() {
@@ -16,6 +19,7 @@ export default function HomePage() {
       <TrustLogos />
       <Services />
       <Process />
+      <AutomationExamples />
       <CaseStudies />
       <CTA />
     </>
@@ -293,6 +297,86 @@ function Process() {
               <p className="text-[#C0C0C0]/60 text-sm leading-relaxed font-light">
                 {phase.description}
               </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function AutomationExamples() {
+  const automations = [
+    {
+      icon: Zap,
+      title: "Instant Lead Response AI",
+      description: "Every form fill gets an intelligent, personalized reply within 5 minutes—24/7. Your prospects feel heard immediately.",
+      aiFeature: "AI analyzes inquiry intent and crafts contextual responses"
+    },
+    {
+      icon: Target,
+      title: "AI Meeting Prepper",
+      description: "Before every sales call, receive a comprehensive briefing: company research, contact background, talking points.",
+      aiFeature: "AI researches prospects across LinkedIn, news, and databases"
+    },
+    {
+      icon: FileText,
+      title: "Document Intelligence",
+      description: "Automatically extract data from PDFs, emails, and forms directly into your CRM or spreadsheets.",
+      aiFeature: "AI understands document structure and extracts key fields"
+    },
+    {
+      icon: Mail,
+      title: "Smart Follow-Up Sequences",
+      description: "AI-powered email sequences that adapt based on prospect behavior and engagement patterns.",
+      aiFeature: "AI adjusts timing and messaging based on open/click data"
+    },
+    {
+      icon: Workflow,
+      title: "Workflow Automator",
+      description: "Connect your tools and automate entire processes—CRM updates, notifications, task creation.",
+      aiFeature: "AI identifies bottlenecks and suggests optimizations"
+    },
+    {
+      icon: Star,
+      title: "Review Generation System",
+      description: "Automatically request reviews at the perfect moment, with AI-crafted personalized messages.",
+      aiFeature: "AI identifies optimal timing and tailors requests"
+    }
+  ];
+
+  return (
+    <section className="py-24 px-6 bg-[#0F1A28] relative overflow-hidden border-y border-[#1C2A3C]">
+      <div className="max-w-6xl mx-auto">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl sm:text-4xl text-[#F8F8F8] mb-4 font-serif">
+            Automation Examples
+          </h2>
+          <p className="text-xl text-[#C0C0C0]/60 max-w-2xl mx-auto font-light">
+            These are just starting points. We build custom AI tools tailored to your exact workflow.
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {automations.map((auto, index) => (
+            <div 
+              key={index} 
+              className="group bg-[#1C2A3C]/30 border border-[#1C2A3C] hover:border-[#B87333]/30 p-6 transition-all"
+            >
+              <div className="w-12 h-12 bg-[#B87333]/10 flex items-center justify-center mb-4">
+                <auto.icon className="w-6 h-6 text-[#B87333]" />
+              </div>
+              <h3 className="font-serif text-lg text-[#F8F8F8] mb-2 group-hover:text-[#B87333] transition-colors">
+                {auto.title}
+              </h3>
+              <p className="text-[#C0C0C0]/70 text-sm mb-4 font-light">
+                {auto.description}
+              </p>
+              <div className="pt-4 border-t border-[#1C2A3C]">
+                <p className="text-xs text-[#B87333]/80 font-medium">
+                  {auto.aiFeature}
+                </p>
+              </div>
             </div>
           ))}
         </div>
