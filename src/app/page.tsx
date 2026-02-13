@@ -75,14 +75,14 @@ function TrustLogos() {
   return (
     <section className="py-16 border-t border-[#1C2A3C]">
       <div className="max-w-6xl mx-auto px-6">
-        <p className="text-[#C0C0C0]/40 text-[10px] uppercase tracking-[0.4em] font-black mb-8 text-center">
-          Trusted Partners in Chicago
+        <p className="text-[#B87333]/60 text-[10px] uppercase tracking-[0.4em] font-black mb-4 text-center">
+          Serving Chicago&apos;s Builders, Advisors, and Operators
         </p>
-        <div className="flex flex-wrap justify-center gap-12 opacity-40 hover:opacity-80 transition-opacity">
-          <span className="font-serif text-2xl italic tracking-tighter text-[#F8F8F8]">REALTORS®</span>
-          <span className="font-serif text-2xl italic tracking-tighter text-[#F8F8F8]">CONSTRUCT_CO</span>
-          <span className="font-serif text-2xl italic tracking-tighter text-[#F8F8F8]">CHI_CONSULT</span>
-          <span className="font-serif text-2xl italic tracking-tighter text-[#F8F8F8]">PRO_SERVICE</span>
+        <div className="flex flex-wrap justify-center gap-8 md:gap-12 opacity-50 hover:opacity-90 transition-opacity">
+          <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#C0C0C0]/60">REALTORS</span>
+          <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#C0C0C0]/60">CONTRACTORS</span>
+          <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#C0C0C0]/60">CONSULTANTS</span>
+          <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#C0C0C0]/60">PROFESSIONAL SERVICES</span>
         </div>
       </div>
     </section>
