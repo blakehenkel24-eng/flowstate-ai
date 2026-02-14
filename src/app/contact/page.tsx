@@ -32,26 +32,34 @@ export default function ContactPage() {
     setError("");
 
     try {
+      const formData = new FormData();
+      formData.append("name", formState.name);
+      formData.append("email", formState.email);
+      formData.append("business", formState.business);
+      formData.append("industry", formState.industry);
+      formData.append("service", formState.service);
+      formData.append("message", formState.message);
+      formData.append("_subject", `New AI Audit Request from ${formState.name}`);
+      formData.append("_replyto", formState.email);
+
       const response = await fetch("https://formspree.io/f/xzdarpev", {
         method: "POST",
+        body: formData,
         headers: {
-          "Content-Type": "application/json",
+          Accept: "application/json",
         },
-        body: JSON.stringify({
-          ...formState,
-          _subject: `New AI Audit Request from ${formState.name}`,
-        }),
       });
 
       if (response.ok) {
         setIsSubmitted(true);
       } else {
-        console.log("Form submitted:", formState);
-        setIsSubmitted(true);
+        const data = await response.json();
+        console.error("Form error:", data);
+        setError("Something went wrong. Please try again or email directly.");
       }
-    } catch {
-      console.log("Form submitted:", formState);
-      setIsSubmitted(true);
+    } catch (err) {
+      console.error("Submit error:", err);
+      setError("Network error. Please try again or email directly.");
     } finally {
       setIsSubmitting(false);
     }
