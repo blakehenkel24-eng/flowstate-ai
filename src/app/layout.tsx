@@ -35,8 +35,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable} dark`}>
       <head>
-        <link rel="icon" type="image/png" href="/favicon.png?v=2" />
-        <link rel="apple-touch-icon" href="/favicon.png?v=2" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=3" />
+        <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png?v=3" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=3" />
+        <meta name="theme-color" content="#0F1A28" />
       </head>
       <body className="antialiased">
         <Navigation />
@@ -52,7 +54,7 @@ function Navigation() {
     <nav className="sticky top-0 z-50 border-b border-[#1C2A3C] bg-[#0F1A28]/90 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-          <img src="/logo.png" alt="Flowstate AI" className="w-8 h-8 bg-transparent object-contain" style={{ backgroundColor: 'transparent' }} />
+          <img src="/logo.png" alt="Flowstate AI" className="w-8 h-8 object-contain" style={{ backgroundColor: 'transparent', background: 'transparent' }} />
           <span className="text-[#F8F8F8] font-serif italic text-2xl tracking-tight">
             Flowstate AI
           </span>
@@ -87,7 +89,7 @@ function Footer() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-12">
         <div className="flex flex-col gap-6">
           <div className="flex items-center gap-3">
-            <img src="/logo.png" alt="Flowstate AI" className="w-7 h-7 bg-transparent object-contain" style={{ backgroundColor: 'transparent' }} />
+            <img src="/logo.png" alt="Flowstate AI" className="w-7 h-7 object-contain" style={{ backgroundColor: 'transparent', background: 'transparent' }} />
             <span className="text-[#F8F8F8] font-serif italic text-xl">Flowstate AI</span>
           </div>
           <p className="text-[#C0C0C0]/40 text-xs font-light max-w-xs">

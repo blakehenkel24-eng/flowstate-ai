@@ -277,4 +277,20 @@ input::placeholder, textarea::placeholder {
 /* Ensure images have transparent backgrounds */
 img {
   background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Additional transparency fixes for logo images */
+nav img,
+footer img,
+.logo-img {
+  background-color: transparent !important;
+  background: none !important;
+  mix-blend-mode: normal;
+}
+
+/* Force transparent background on all image containers */
+[style*="background-color: transparent"] img,
+[style*="background: transparent"] img {
+  background-color: transparent !important;
 }
