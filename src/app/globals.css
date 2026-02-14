@@ -100,18 +100,23 @@ a:hover {
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  padding: 0.875rem 2rem;
+  padding: 0.875rem 1.5rem;
   border-radius: 2px;
   border: none;
   box-shadow: 0 4px 20px rgba(184, 115, 51, 0.3);
   transition: all 0.3s ease;
   cursor: pointer;
+  min-height: 48px;
+  text-align: center;
+  line-height: 1.2;
 }
 
-.btn-industrial:hover {
-  background: var(--accent-hover);
-  transform: translateY(-1px);
-  box-shadow: 0 6px 24px rgba(184, 115, 51, 0.4);
+@media (max-width: 640px) {
+  .btn-industrial {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    font-size: 0.8rem;
+  }
 }
 
 .btn-outline {
@@ -125,16 +130,22 @@ a:hover {
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  padding: 0.875rem 2rem;
+  padding: 0.875rem 1.5rem;
   border-radius: 2px;
   border: 1px solid rgba(248, 248, 248, 0.2);
   transition: all 0.3s ease;
   cursor: pointer;
+  min-height: 48px;
+  text-align: center;
+  line-height: 1.2;
 }
 
-.btn-outline:hover {
-  background: rgba(248, 248, 248, 0.1);
-  color: var(--heritage-cream);
+@media (max-width: 640px) {
+  .btn-outline {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    font-size: 0.8rem;
+  }
 }
 
 /* Cards */
@@ -207,4 +218,58 @@ input::placeholder, textarea::placeholder {
 
 .tracking-wider {
   letter-spacing: 0.1em;
+}
+
+/* Mobile Optimizations */
+@media (max-width: 640px) {
+  html {
+    font-size: 15px;
+  }
+  
+  h1 {
+    font-size: 2.25rem !important;
+    line-height: 1.1 !important;
+  }
+  
+  h2 {
+    font-size: 1.75rem !important;
+  }
+  
+  .text-5xl, .text-6xl, .text-7xl, .text-8xl {
+    font-size: 2.5rem !important;
+    line-height: 1.1 !important;
+  }
+  
+  .text-4xl, .text-5xl {
+    font-size: 1.875rem !important;
+  }
+  
+  .text-3xl, .text-4xl {
+    font-size: 1.5rem !important;
+  }
+  
+  section {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+  }
+  
+  .max-w-5xl, .max-w-6xl, .max-w-7xl {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  .industrial-grid {
+    background-size: 40px 40px;
+  }
+}
+
+/* Tablet adjustments */
+@media (max-width: 768px) {
+  .text-7xl, .text-8xl {
+    font-size: 3rem !important;
+  }
+  
+  .text-6xl {
+    font-size: 2.5rem !important;
+  }
 }

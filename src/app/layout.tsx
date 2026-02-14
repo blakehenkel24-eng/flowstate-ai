@@ -17,11 +17,11 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Flowstate AI | Heritage Industrial AI Automation",
+  title: "Flowstate AI — Chicago-Based Artificial Intelligence Services",
   description: "Engineering custom AI automation for high-stakes workflows. Save 10+ hours per week with precision-built systems.",
   keywords: ["AI automation", "small business", "Chicago", "workflow automation", "AI tools", "industrial"],
   openGraph: {
-    title: "Flowstate AI | Heritage Industrial AI Automation",
+    title: "Flowstate AI — Chicago-Based Artificial Intelligence Services",
     description: "Engineering custom AI automation for high-stakes workflows.",
     type: "website",
   },
@@ -35,7 +35,8 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable} dark`}>
       <head>
-        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="icon" type="image/png" href="/favicon.png?v=2" />
+        <link rel="apple-touch-icon" href="/favicon.png?v=2" />
       </head>
       <body className="antialiased">
         <Navigation />
