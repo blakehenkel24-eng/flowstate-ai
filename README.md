@@ -79,3 +79,4 @@ The contact form uses Formspree (free tier). To set up:
 - Tailwind CSS v4
 - TypeScript
 - Markdown processing with gray-matter + remark
+# Deploy Sat Feb 14 07:07:52 UTC 2026
